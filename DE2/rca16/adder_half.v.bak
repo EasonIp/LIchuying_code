@@ -1,0 +1,11 @@
+module adder_full (a, b, c_in, sum, c_out);
+
+	input a, b;
+	input c_in;
+	
+	output sum;
+	output c_out;
+
+	
+
+endmodule

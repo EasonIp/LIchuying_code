@@ -1,0 +1,137 @@
+module smg(
+	input	wire clk, //50MHz
+	input	wire rst_n,
+	input wire [7:0] data_in,  
+	output reg [2:0] sel, //位选
+	output reg [7:0] seg  //段选  都是低电平点亮
+);
+	
+	reg [3:0] seg_data;
+	reg [19:0] count;
+	reg state;
+	wire flag;
+	reg [11:0] data1;  //转换后的数据
+	reg [15:0] data2;   //数码管显示数据
+
+	parameter T100ms = 5_000_000;		// time to update data to display
+	
+	reg [25:0] cnt100ms;
+	
+	always @(posedge clk or negedge rst_n)
+		begin
+			if (!rst_n)
+				begin
+					cnt100ms <= 0;
+					data1 <= 0;
+				end
+			else 
+				begin
+					if (cnt100ms < T100ms - 1)
+						cnt100ms <= cnt100ms + 26'd1;
+					else
+						begin
+							cnt100ms <= 0;
+							data1 <= (2500*data_in)/256;
+						end
+				end
+		end
+	
+	always @(posedge clk or negedge rst_n)
+		begin
+			if (!rst_n)
+				data2 <= 0;
+			else 
+				begin
+					data2[3:0] <=  data1%10;
+					data2[7:4] <=  data1/10%10;
+					data2[11:8] <=  data1/100%10;
+					data2[15:12] <=  data1/1000%10;
+				end
+		end
+	
+	//-----------1Khz标志信号
+	always @(posedge clk or negedge rst_n)
+	begin
+		if (!rst_n)
+			count <= 0;
+		else if (count == 49999)
+			count <= 0;
+		else
+			count <= count + 1;
+	end
+	assign flag = count == 49999 ? 1 : 0;
+	
+	//数码管扫描	
+	always @(posedge clk or negedge rst_n)
+	begin
+		if(!rst_n)
+			sel <= 2;
+		else if(sel >= 5 && flag)
+			sel <= 2;
+		else if (flag)
+			sel <= sel + 1;
+	end
+	
+	always @(*)
+	begin
+		if(!rst_n)
+			seg_data = 0;
+		else
+			case(sel)
+			2:seg_data = data2[15:12];
+			3:seg_data = data2[11:8];
+			4:seg_data = data2[7:4];
+			5:seg_data = data2[3:0];
+			default : seg_data = seg_data;
+			endcase
+	end
+	
+	always @(*)
+	begin
+		if(!rst_n)
+			seg = 8'hff;
+		else if (sel > 2)
+			begin
+				case(seg_data)
+				0: seg = 8'hc0;
+				1: seg = 8'hf9;
+				2: seg = 8'ha4;
+				3: seg = 8'hb0;
+				4: seg = 8'h99;
+				5: seg = 8'h92;
+				6: seg = 8'h82;
+				7: seg = 8'hf8;
+				8: seg = 8'h80;
+				9: seg = 8'h90;
+				10: seg = 8'h88;
+				11: seg = 8'h83;
+				12: seg = 8'hc6;
+				13: seg = 8'ha1;
+				14: seg = 8'h86;
+				15: seg = 8'h8e;
+				endcase
+			end
+		else if (sel == 2)
+			begin
+				case(seg_data)
+				0: seg = 8'h40;
+				1: seg = 8'h79;
+				2: seg = 8'h24;
+				3: seg = 8'h30;
+				4: seg = 8'h19;
+				5: seg = 8'h12;
+				6: seg = 8'h02;
+				7: seg = 8'h78;
+				8: seg = 8'h00;
+				9: seg = 8'h10;
+				10: seg = 8'h08;
+				11: seg = 8'h03;
+				12: seg = 8'h46;
+				13: seg = 8'h21;
+				14: seg = 8'h06;
+				15: seg = 8'h0e;
+				endcase
+			end	
+		end
+
+endmodule 

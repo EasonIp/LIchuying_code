@@ -1,0 +1,11 @@
+module uart (clk, rst_n, rs232_rx, rs232_tx);
+
+	input clk, rst_n;
+	input rs232_rx;
+	
+	output rs232_tx;
+
+	
+
+
+endmodule

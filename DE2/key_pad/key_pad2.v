@@ -1,0 +1,161 @@
+module key_pad2 (clk, rst_n, col, row, data, flag);
+
+	input clk, rst_n;
+//	input [3:0] row;
+	
+	output reg [3:0] row, col;
+	output reg [3:0] data;
+	output reg flag;
+	
+	wire [3:0] row_fb;
+	assign row_fb = row;
+	
+	reg [31:0] count;
+	wire flag1ms;
+	
+	parameter T1ms = 50_000;	// 1ms/20ns = 50_000
+	
+	always @ (posedge clk or negedge rst_n)
+		begin
+			if (!rst_n)
+				begin
+					count <= 0;
+				end
+			else
+				begin
+					if (count < T1ms - 1)
+						begin
+							count <= count + 1;
+						end
+					else
+						begin
+							count <= 0;
+						end
+				end
+		end
+
+	assign flag1ms = (count == T1ms - 1) ? 1'b1 : 1'b0;
+	
+	reg [7:0] state;
+	reg [7:0] cnt_key;
+	
+	reg [7:0] rowfb_col;
+	
+	parameter NUM_KEY = 20;
+	
+	always @ (posedge clk or negedge rst_n)
+		begin
+			if (!rst_n)
+				begin
+					cnt_key <= 0;
+					row <= 4'b1111;
+					col <= 4'b0000;
+					flag <= 0;
+					rowfb_col <= 8'b1111_0000;
+					state <= 0;
+				end
+			else
+				begin
+					case (state)
+					0	:	begin
+								if (!flag1ms)
+									state <= 0;
+								else
+									begin
+										if (row_fb == 4'b1111)	// no key pressed
+											state <= 0;
+										else						// key pressed
+											begin
+												if (cnt_key < NUM_KEY - 1)
+													cnt_key <= cnt_key + 8'b1;
+												else
+													begin
+														cnt_key <= 0;
+														row <= 4'b1111;
+														col <= 4'b1110;
+														state <= 1;
+													end
+											end
+									end
+							end
+					
+					1	:	begin
+								if (!flag1ms)
+									begin
+										state <= 1;
+									end
+								else
+									begin
+										if (row_fb == 4'b1111)	// no key pressed
+											col <= {col[2:0], col[3]};
+										else						// key pressed
+											begin
+												rowfb_col <= {row_fb, col};
+												flag <= 1;
+												row <= 4'b1111;
+												col <= 4'b0000;
+												state <= 2;
+											end
+									end
+							end
+					
+					2	:	if (!flag1ms)
+								begin
+									flag <= 0;
+									state <= 2;
+								end
+							else
+								begin
+									if (row != 4'b1111)	// key unreleased
+										begin
+											state = 2;
+										end
+									else						// key released
+										begin
+											if (cnt_key < NUM_KEY - 1)
+												cnt_key <= cnt_key + 8'b1;
+											else
+												begin
+													cnt_key <= 0;
+													row <= 4'b1111;
+													col <= 4'b0000;
+													state <= 0;
+												end
+										end
+								end
+					
+					default	:	state <= 0;
+					
+					endcase
+				end
+		end
+
+	always @ (*)
+		begin
+			if (!rst_n)
+				data <= 4'h0;
+			else
+				begin
+					case (rowfb_col)
+					8'b1110_1110	:	data <= 4'h0;
+					8'b1110_1101	:	data <= 4'h1;
+					8'b1110_1011	:	data <= 4'h2;
+					8'b1110_0111	:	data <= 4'h3;
+					8'b1101_1110	:	data <= 4'h4;
+					8'b1101_1101	:	data <= 4'h5;
+					8'b1101_1011	:	data <= 4'h6;
+					8'b1101_0111	:	data <= 4'h7;
+					8'b1011_1110	:	data <= 4'h8;
+					8'b1011_1101	:	data <= 4'h9;
+					8'b1011_1011	:	data <= 4'hA;
+					8'b1011_0111	:	data <= 4'hB;
+					8'b0111_1110	:	data <= 4'hC;
+					8'b0111_1101	:	data <= 4'hD;
+					8'b0111_1011	:	data <= 4'hE;
+					8'b0111_0111	:	data <= 4'hF;
+					default	:	data <= 4'h0;			// no key pressed
+					endcase
+				end
+		end
+
+endmodule

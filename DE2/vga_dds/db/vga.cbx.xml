@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="vga">
+		<CBX_INST_ENTRY INSTANCE_NAME="|top|sine_rom256:sine_rom256_inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_4681.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top|square_rom256:square_rom256_inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_6d81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top|vga_dds:vga_dds|ram800_wave:ram800_wave|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_ksa1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

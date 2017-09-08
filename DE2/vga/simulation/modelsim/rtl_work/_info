@@ -1,0 +1,70 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ZXOPEN2017\DE2\class\vga\simulation\modelsim
+vpll
+IN@;;;=B0O:UT9o;@T5ckU2
+VTzfl_z@ao?7lPCkHJWmU`0
+w1490664110
+8D:/ZXOPEN2017/DE2/class/vga/pll.v
+FD:/ZXOPEN2017/DE2/class/vga/pll.v
+L0 39
+Z1 OV;L;6.4a;39
+r1
+31
+Z2 o-vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/vga -O0
+!s100 ]k;9oeAjR@NdA2VW:1L;;2
+!s85 0
+vrgb
+IeT<OWlOe<e6<^l^N<`kFK0
+VYnX0=jHnZ2dmHYY`AD9zQ1
+w1490617759
+8D:/ZXOPEN2017/DE2/class/vga/rgb.v
+FD:/ZXOPEN2017/DE2/class/vga/rgb.v
+L0 1
+R1
+r1
+31
+R2
+!s100 NZneePS;^7dWUALlH[Dez3
+!s85 0
+vtop
+ImP<c7>fAEQB3^Q<1jQ:o61
+VUnh=bAa]_BBga=@PYcghO2
+w1490621260
+8D:/ZXOPEN2017/DE2/class/vga/top.v
+FD:/ZXOPEN2017/DE2/class/vga/top.v
+L0 1
+R1
+r1
+31
+R2
+!s100 zFcJV@>izPQBTb]@HLTmL3
+!s85 0
+vtop_tb
+!s100 [ToAYY`4;9PK8cPH_A_io2
+INA2n=j`WeQ]J6cT13W@zD3
+VN7^ihbmI9enFg9D=Qco243
+w1490619652
+8D:/ZXOPEN2017/DE2/class/vga/top_tb.v
+FD:/ZXOPEN2017/DE2/class/vga/top_tb.v
+L0 3
+R1
+r1
+!s85 0
+31
+R2
+vvga
+IIll2IlGXJ9i6?fB6<9[g23
+VJCH_BJ5U7ecSW_oFeQWF@1
+w1490622193
+8D:/ZXOPEN2017/DE2/class/vga/vga.v
+FD:/ZXOPEN2017/DE2/class/vga/vga.v
+L0 1
+R1
+r1
+31
+R2
+!s100 B>[6I70^nGTj847?`lhA?1
+!s85 0

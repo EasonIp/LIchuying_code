@@ -1,0 +1,70 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ZXOPEN2017\DE2\class\key_pad\simulation\modelsim
+vkey_pad
+I<I8@N:Knh]FV>^JNBRm8J3
+VB4?OBDM;`NmaT3FGZd:=`2
+w1492158110
+8D:/ZXOPEN2017/DE2/class/key_pad/key_pad.v
+FD:/ZXOPEN2017/DE2/class/key_pad/key_pad.v
+L0 1
+Z1 OV;L;6.4a;39
+r1
+31
+Z2 o-vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/key_pad -O0
+!s100 d8OiZkA7[f@IN2[D?mAXX1
+!s85 0
+vkey_pad_tb
+!s100 Z;5PK<N:7m9Zg6h6F9QJ13
+Io`^c2R9igeAUN@5cUOc<]2
+V77d7B`]zPIk6A=]N3SoSV2
+w1478772130
+8D:/ZXOPEN2017/DE2/class/key_pad/key_pad_tb.v
+FD:/ZXOPEN2017/DE2/class/key_pad/key_pad_tb.v
+L0 3
+R1
+r1
+!s85 0
+31
+R2
+vpre_seg7
+IC1`o49Mb79WlaIMXeo8VM3
+V>Qf]IaHDCRaaFZ_NjKnh63
+w1492159460
+8D:/ZXOPEN2017/DE2/class/key_pad/pre_seg7.v
+FD:/ZXOPEN2017/DE2/class/key_pad/pre_seg7.v
+L0 1
+R1
+r1
+31
+R2
+!s100 2iVOhA0c7AlilKii3X0ih3
+!s85 0
+vseg7
+IaNY7XPbFC]RnZe5Q9eORh2
+VzZYUGhdnn5RAzgmo?DUfk3
+w1490321581
+8D:/ZXOPEN2017/DE2/class/key_pad/seg7.v
+FD:/ZXOPEN2017/DE2/class/key_pad/seg7.v
+L0 1
+R1
+r1
+31
+R2
+!s100 W32;8A^G]E?jQ?aAS?Oj>0
+!s85 0
+vtop
+I]j2:bZHjzVVOAX<0610FK1
+V7@>UIhKFNeb0F9Sl<4<`M1
+w1492159289
+8D:/ZXOPEN2017/DE2/class/key_pad/top.v
+FD:/ZXOPEN2017/DE2/class/key_pad/top.v
+L0 1
+R1
+r1
+31
+R2
+!s100 EY1;19oTcU[0Lg9QeDMBo0
+!s85 0

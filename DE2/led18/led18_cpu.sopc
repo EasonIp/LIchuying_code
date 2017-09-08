@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system name="led18_cpu">
+ <parameter name="bonusData">bonusData 
+{
+   element program
+   {
+      datum _sortIndex
+      {
+         value = "1";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+   }
+   element led18_pio
+   {
+      datum _sortIndex
+      {
+         value = "3";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+   }
+   element clk_0
+   {
+      datum _sortIndex
+      {
+         value = "4";
+         type = "int";
+      }
+   }
+   element cpu
+   {
+      datum _sortIndex
+      {
+         value = "0";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+   }
+   element cpu.jtag_debug_module
+   {
+      datum baseAddress
+      {
+         value = "2048";
+         type = "long";
+      }
+   }
+   element led18_pio.s1
+   {
+      datum baseAddress
+      {
+         value = "0";
+         type = "long";
+      }
+   }
+   element program.s1
+   {
+      datum baseAddress
+      {
+         value = "8192";
+         type = "long";
+      }
+   }
+   element data.s1
+   {
+      datum baseAddress
+      {
+         value = "12288";
+         type = "long";
+      }
+   }
+   element data
+   {
+      datum _sortIndex
+      {
+         value = "2";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+   }
+}
+</parameter>
+ <parameter name="deviceFamily" value="CYCLONEII" />
+ <parameter name="generateLegacySim" value="false" />
+ <parameter name="hardcopyCompatible" value="false" />
+ <parameter name="hdlLanguage" value="VERILOG" />
+ <parameter name="projectName" value="led18.quartus" />
+ <parameter name="systemHash" value="-734990358" />
+ <parameter name="timeStamp" value="1489304125019" />
+ <module name="clk_0" kind="clock_source" version="9.0" enabled="1">
+  <parameter name="clockFrequency" value="50000000" />
+  <parameter name="clockFrequencyKnown" value="true" /></module>
+ <module name="cpu" kind="altera_nios2" version="9.0" enabled="1">
+  <parameter name="userDefinedSettings" value="" />
+  <parameter name="setting_showUnpublishedSettings" value="false" />
+  <parameter name="setting_showInternalSettings" value="false" />
+  <parameter name="setting_shadowRegisterSetsPresent" value="false" />
+  <parameter name="setting_preciseSlaveAccessErrorException" value="false" />
+  <parameter name="setting_preciseIllegalMemAccessException" value="false" />
+  <parameter name="setting_preciseDivisionErrorException" value="false" />
+  <parameter name="setting_performanceCounter" value="false" />
+  <parameter name="setting_perfCounterWidth" value="_32" />
+  <parameter name="setting_numShadowRegisterSets" value="1" />
+  <parameter name="setting_illegalMemAccessDetection" value="false" />
+  <parameter name="setting_illegalInstructionsTrap" value="false" />
+  <parameter name="setting_fullWaveformSignals" value="false" />
+  <parameter name="setting_extraExceptionInfo" value="false" />
+  <parameter name="setting_exportPCB" value="false" />
+  <parameter name="setting_eicPresent" value="false" />
+  <parameter name="setting_debugSimGen" value="false" />
+  <parameter name="setting_clearXBitsLDNonBypass" value="true" />
+  <parameter name="setting_branchPredictionType" value="Automatic" />
+  <parameter name="setting_bit31BypassDCache" value="true" />
+  <parameter name="setting_bhtPtrSz" value="_8" />
+  <parameter name="setting_bhtIndexPcOnly" value="false" />
+  <parameter name="setting_avalonDebugPortPresent" value="false" />
+  <parameter name="setting_autoAssignNumShadowRegisterSets" value="true" />
+  <parameter name="setting_alwaysEncrypt" value="true" />
+  <parameter name="setting_allowFullAddressRange" value="false" />
+  <parameter name="setting_activateTrace" value="true" />
+  <parameter name="setting_activateTestEndChecker" value="false" />
+  <parameter name="setting_activateMonitors" value="true" />
+  <parameter name="setting_activateModelChecker" value="false" />
+  <parameter name="setting_HDLSimCachesCleared" value="true" />
+  <parameter name="setting_HBreakTest" value="false" />
+  <parameter name="resetSlave" value="program.s1" />
+  <parameter name="resetOffset" value="0" />
+  <parameter name="muldiv_multiplierType" value="EmbeddedMulFast" />
+  <parameter name="muldiv_divider" value="false" />
+  <parameter name="mpu_useLimit" value="false" />
+  <parameter name="mpu_numOfInstRegion" value="8" />
+  <parameter name="mpu_numOfDataRegion" value="8" />
+  <parameter name="mpu_minInstRegionSize" value="_12" />
+  <parameter name="mpu_minDataRegionSize" value="_12" />
+  <parameter name="mpu_enabled" value="false" />
+  <parameter name="mmu_uitlbNumEntries" value="_4" />
+  <parameter name="mmu_udtlbNumEntries" value="_6" />
+  <parameter name="mmu_tlbPtrSz" value="_7" />
+  <parameter name="mmu_tlbNumWays" value="_16" />
+  <parameter name="mmu_processIDNumBits" value="_8" />
+  <parameter name="mmu_enabled" value="false" />
+  <parameter name="mmu_autoAssignTlbPtrSz" value="true" />
+  <parameter name="mmu_TLBMissExcSlave" value="" />
+  <parameter name="mmu_TLBMissExcOffset" value="0" />
+  <parameter name="manuallyAssignCpuID" value="false" />
+  <parameter name="impl" value="Tiny" />
+  <parameter name="icache_size" value="_4096" />
+  <parameter name="icache_ramBlockType" value="Automatic" />
+  <parameter name="icache_numTCIM" value="_0" />
+  <parameter name="icache_burstType" value="None" />
+  <parameter name="exceptionSlave" value="data.s1" />
+  <parameter name="exceptionOffset" value="32" />
+  <parameter name="debug_triggerArming" value="true" />
+  <parameter name="debug_level" value="Level1" />
+  <parameter name="debug_jtagInstanceID" value="0" />
+  <parameter name="debug_embeddedPLL" value="true" />
+  <parameter name="debug_debugReqSignals" value="false" />
+  <parameter name="debug_assignJtagInstanceID" value="false" />
+  <parameter name="debug_OCIOnchipTrace" value="_128" />
+  <parameter name="dcache_size" value="_2048" />
+  <parameter name="dcache_ramBlockType" value="Automatic" />
+  <parameter name="dcache_omitDataMaster" value="false" />
+  <parameter name="dcache_numTCDM" value="_0" />
+  <parameter name="dcache_lineSize" value="_32" />
+  <parameter name="dcache_bursts" value="false" />
+  <parameter name="cpuReset" value="false" />
+  <parameter name="cpuID" value="0" />
+  <parameter name="breakSlave">cpu.jtag_debug_module</parameter>
+  <parameter name="breakOffset" value="32" /></module>
+ <module
+   name="program"
+   kind="altera_avalon_onchip_memory2"
+   version="9.0"
+   enabled="1">
+  <parameter name="allowInSystemMemoryContentEditor" value="false" />
+  <parameter name="blockType" value="AUTO" />
+  <parameter name="dataWidth" value="32" />
+  <parameter name="dualPort" value="false" />
+  <parameter name="initMemContent" value="true" />
+  <parameter name="initializationFileName" value="program" />
+  <parameter name="instanceID" value="NONE" />
+  <parameter name="memorySize" value="4096" />
+  <parameter name="readDuringWriteMode" value="DONT_CARE" />
+  <parameter name="simAllowMRAMContentsFile" value="false" />
+  <parameter name="slave1Latency" value="1" />
+  <parameter name="slave2Latency" value="1" />
+  <parameter name="useNonDefaultInitFile" value="false" />
+  <parameter name="useShallowMemBlocks" value="false" />
+  <parameter name="writable" value="false" /></module>
+ <module
+   name="data"
+   kind="altera_avalon_onchip_memory2"
+   version="9.0"
+   enabled="1">
+  <parameter name="allowInSystemMemoryContentEditor" value="false" />
+  <parameter name="blockType" value="AUTO" />
+  <parameter name="dataWidth" value="32" />
+  <parameter name="dualPort" value="false" />
+  <parameter name="initMemContent" value="false" />
+  <parameter name="initializationFileName" value="data" />
+  <parameter name="instanceID" value="NONE" />
+  <parameter name="memorySize" value="4096" />
+  <parameter name="readDuringWriteMode" value="DONT_CARE" />
+  <parameter name="simAllowMRAMContentsFile" value="false" />
+  <parameter name="slave1Latency" value="1" />
+  <parameter name="slave2Latency" value="1" />
+  <parameter name="useNonDefaultInitFile" value="false" />
+  <parameter name="useShallowMemBlocks" value="false" />
+  <parameter name="writable" value="true" /></module>
+ <module name="led18_pio" kind="altera_avalon_pio" version="9.0" enabled="1">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="false" />
+  <parameter name="direction" value="Output" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="false" />
+  <parameter name="irqType" value="LEVEL" />
+  <parameter name="resetValue" value="0" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="18" /></module>
+ <connection kind="clock" version="9.0" start="clk_0.clk" end="cpu.clk" />
+ <connection
+   kind="avalon"
+   version="6.1"
+   start="cpu.instruction_master"
+   end="cpu.jtag_debug_module">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0800" /></connection>
+ <connection
+   kind="avalon"
+   version="6.1"
+   start="cpu.data_master"
+   end="cpu.jtag_debug_module">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0800" /></connection>
+ <connection kind="clock" version="9.0" start="clk_0.clk" end="program.clk1" />
+ <connection
+   kind="avalon"
+   version="6.1"
+   start="cpu.instruction_master"
+   end="program.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x2000" /></connection>
+ <connection kind="avalon" version="6.1" start="cpu.data_master" end="program.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x2000" /></connection>
+ <connection kind="clock" version="9.0" start="clk_0.clk" end="data.clk1" />
+ <connection
+   kind="avalon"
+   version="6.1"
+   start="cpu.instruction_master"
+   end="data.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x3000" /></connection>
+ <connection kind="avalon" version="6.1" start="cpu.data_master" end="data.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x3000" /></connection>
+ <connection kind="clock" version="9.0" start="clk_0.clk" end="led18_pio.clk" />
+ <connection
+   kind="avalon"
+   version="6.1"
+   start="cpu.data_master"
+   end="led18_pio.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0000" /></connection></system>

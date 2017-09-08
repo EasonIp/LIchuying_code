@@ -1,0 +1,31 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ZXOPEN2017\DE2\class\ledrun\simulation\modelsim
+vledrun
+IdVPzF`UX8<Ac8JOn`VL;a0
+VGhPBQEg[V^?ZC<G;e2cfC1
+w1489309590
+8D:/ZXOPEN2017/DE2/class/ledrun/ledrun.v
+FD:/ZXOPEN2017/DE2/class/ledrun/ledrun.v
+L0 1
+Z1 OV;L;6.4a;39
+r1
+31
+Z2 o-vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/ledrun -O0
+!s100 nHEk;i6OjZ7JM0dgakkJ13
+!s85 0
+vledrun_tb
+!s100 TFZ7@O<lI_h6bUh5:n6Mn1
+IENAIk`eiQ6ODJ<FW]9>;=3
+VkC]j`]bgdB`7W1=R^OIV=0
+w1489823769
+8D:/ZXOPEN2017/DE2/class/ledrun/ledrun_tb.v
+FD:/ZXOPEN2017/DE2/class/ledrun/ledrun_tb.v
+L0 3
+R1
+r1
+!s85 0
+31
+R2

@@ -1,0 +1,21 @@
+
+State Machine - |top|seg7:seg7|state
+Name state.101 state.100 state.011 state.010 state.001 state.000 
+state.000 0 0 0 0 0 0 
+state.001 0 0 0 0 1 1 
+state.010 0 0 0 1 0 1 
+state.011 0 0 1 0 0 1 
+state.100 0 1 0 0 0 1 
+state.101 1 0 0 0 0 1 
+
+State Machine - |top|iic:iic|temp
+Name temp.00 temp.10 temp.01 
+temp.00 0 0 0 
+temp.01 1 0 1 
+temp.10 1 1 0 
+
+State Machine - |top|iic:iic|en
+Name en.00 en.10 en.01 
+en.00 0 0 0 
+en.01 1 0 1 
+en.10 1 1 0 

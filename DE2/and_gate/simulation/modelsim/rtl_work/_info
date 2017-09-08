@@ -1,0 +1,31 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ZXOPEN2017\DE2\class\and_gate\simulation\modelsim
+vand_gate
+IM1`TEUWdW7YBYzHejddPm0
+VA9=1kcK295c>Ud^[kJRDZ0
+w1477901527
+8D:/ZXOPEN2017/DE2/class/and_gate/and_gate.v
+FD:/ZXOPEN2017/DE2/class/and_gate/and_gate.v
+L0 1
+Z1 OV;L;6.4a;39
+r1
+31
+Z2 o-vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/and_gate -O0
+!s100 n^`nHUiOaQB<`E50I5]2I0
+!s85 0
+vand_gate_tb
+!s100 5PUDG5L59jnfH:48a:hz92
+Iz6jMa=8z=M;HOFG>L<Z;M2
+VB7Fd>f5l``CMJaUOkic<F3
+w1477925937
+8D:/ZXOPEN2017/DE2/class/and_gate/and_gate_tb.v
+FD:/ZXOPEN2017/DE2/class/and_gate/and_gate_tb.v
+L0 3
+R1
+r1
+!s85 0
+31
+R2

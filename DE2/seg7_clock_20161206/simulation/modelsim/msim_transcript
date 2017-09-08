@@ -1,0 +1,103 @@
+# Reading D:/altera/11.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do seg7_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying d:\altera\11.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied d:\altera\11.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+F:/lcy/seg7 {F:/lcy/seg7/seg7.v}
+# Model Technology ModelSim ALTERA vlog 6.6d Compiler 2010.11 Nov  2 2010
+# -- Compiling module seg7
+# 
+# Top level modules:
+# 	seg7
+# 
+# vlog -vlog01compat -work work +incdir+F:/lcy/seg7 {F:/lcy/seg7/seg7_tb.v}
+# Model Technology ModelSim ALTERA vlog 6.6d Compiler 2010.11 Nov  2 2010
+# -- Compiling module seg7_tb
+# ** Warning: F:/lcy/seg7/seg7_tb.v(17): [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	seg7_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc" seg7_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps seg7_tb 
+# Loading work.seg7_tb
+# Loading work.seg7
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by:   Hostname:   ProcessID: 1
+#           Attempting to use alternate WLF file "./wlftdtbv17".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftdtbv17
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break in Module seg7_tb at F:/lcy/seg7/seg7_tb.v line 21
+# Simulation Breakpoint: Break in Module seg7_tb at F:/lcy/seg7/seg7_tb.v line 21
+# MACRO ./seg7_run_msim_rtl_verilog.do PAUSED at line 17
+vlog -vlog01compat -work work +incdir+F:/lcy/seg7 -O0 F:/lcy/seg7/seg7.v
+# Model Technology ModelSim ALTERA vlog 6.6d Compiler 2010.11 Nov  2 2010
+# -- Compiling module seg7
+# 
+# Top level modules:
+# 	seg7
+vlog -vlog01compat -work work +incdir+F:/lcy/seg7 -O0 F:/lcy/seg7/seg7_tb.v
+# Model Technology ModelSim ALTERA vlog 6.6d Compiler 2010.11 Nov  2 2010
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+restart
+# Loading work.seg7_tb
+# Loading work.seg7
+run -all
+# Break in Module seg7_tb at F:/lcy/seg7/seg7_tb.v line 21
+add wave sim:/seg7_tb/dut/*
+restart
+restart
+vlog -vlog01compat -work work +incdir+F:/lcy/seg7 -O0 F:/lcy/seg7/seg7.v
+# Model Technology ModelSim ALTERA vlog 6.6d Compiler 2010.11 Nov  2 2010
+# -- Compiling module seg7
+# 
+# Top level modules:
+# 	seg7
+vlog -vlog01compat -work work +incdir+F:/lcy/seg7 -O0 F:/lcy/seg7/seg7_tb.v
+# Model Technology ModelSim ALTERA vlog 6.6d Compiler 2010.11 Nov  2 2010
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+restart
+# Loading work.seg7_tb
+# Loading work.seg7
+run -all
+# Break in Module seg7_tb at F:/lcy/seg7/seg7_tb.v line 21
+vlog -vlog01compat -work work +incdir+F:/lcy/seg7 -O0 F:/lcy/seg7/seg7.v
+# Model Technology ModelSim ALTERA vlog 6.6d Compiler 2010.11 Nov  2 2010
+# -- Compiling module seg7
+# 
+# Top level modules:
+# 	seg7
+vlog -vlog01compat -work work +incdir+F:/lcy/seg7 -O0 F:/lcy/seg7/seg7_tb.v
+# Model Technology ModelSim ALTERA vlog 6.6d Compiler 2010.11 Nov  2 2010
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+restart
+# Loading work.seg7_tb
+# Loading work.seg7
+run -all
+# Break in Module seg7_tb at F:/lcy/seg7/seg7_tb.v line 21
+restart
+run -all
+# Break in Module seg7_tb at F:/lcy/seg7/seg7_tb.v line 21

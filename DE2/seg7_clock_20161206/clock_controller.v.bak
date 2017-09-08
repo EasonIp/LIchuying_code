@@ -1,0 +1,14 @@
+module clock_controller (clk, rst_n, data);
+
+	input clk, rst_n;
+	
+	output [23:0] data;
+
+
+
+
+
+
+
+
+endmodule

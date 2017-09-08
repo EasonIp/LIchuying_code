@@ -1,0 +1,31 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ZXOPEN2017\DE2\class\check_edge\simulation\modelsim
+vcheck_edge
+IHdX:]Ve`3h;l@0[T@:m1n0
+VcVSXRR>_F6a9?K66[jnnK0
+w1478489739
+8D:/ZXOPEN2017/DE2/class/check_edge/check_edge.v
+FD:/ZXOPEN2017/DE2/class/check_edge/check_edge.v
+L0 1
+Z1 OV;L;6.4a;39
+r1
+31
+Z2 o-vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/check_edge -O0
+!s100 Pa5e7LoEgm>=hKE]mAG7C1
+!s85 0
+vcheck_edge_tb
+!s100 UASUQNFCNO_BHX8eXXnQJ2
+IJ=HiW2NhAg83fi9k6Hi8L1
+VaG>lSChL<K0VMXH9iWn5j3
+w1478490015
+8D:/ZXOPEN2017/DE2/class/check_edge/check_edge_tb.v
+FD:/ZXOPEN2017/DE2/class/check_edge/check_edge_tb.v
+L0 3
+R1
+r1
+!s85 0
+31
+R2

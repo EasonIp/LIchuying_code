@@ -1,0 +1,52 @@
+# Reading D:/altera/90/modelsim_ae/tcl/vsim/pref.tcl 
+# do key_filter_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\altera\90\modelsim_ae\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\altera\90\modelsim_ae\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/key_filter {D:/ZXOPEN2017/DE2/class/key_filter/key_flag.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module key_flag
+# 
+# Top level modules:
+# 	key_flag
+# 
+# vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/key_filter {D:/ZXOPEN2017/DE2/class/key_filter/key_flag_tb.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module key_flag_tb
+# 
+# Top level modules:
+# 	key_flag_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc" key_flag_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps key_flag_tb 
+# //  ModelSim ALTERA 6.4a Oct 22 2008 
+# //
+# //  Copyright 1991-2008 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading work.key_flag_tb
+# Loading work.key_flag
+# ** Warning: (vsim-3009) [TSCALE] - Module 'key_flag' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /key_flag_tb/dut
+# 
+# add wave *
+# view structure
+# .main_pane.workspace.interior.cs.nb.canvas.notebook.cs.page2.cs
+# view signals
+# .main_pane.signals.interior.cs
+# run -all
+# Break in Module key_flag_tb at D:/ZXOPEN2017/DE2/class/key_filter/key_flag_tb.v line 43
+# Simulation Breakpoint: Break in Module key_flag_tb at D:/ZXOPEN2017/DE2/class/key_filter/key_flag_tb.v line 43
+# MACRO ./key_filter_run_msim_rtl_verilog.do PAUSED at line 17

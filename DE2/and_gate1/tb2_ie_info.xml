@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<!--Created by Liquid XML 2008 (www.liquid-technologies.com) for ALTERA CORPORATION-->
+<ProgramExecution xmlns:xs="http://www.w3.org/2001/XMLSchema-instance">
+	<AddressBits>64</AddressBits>
+	<DateInvoked>2017/02/26 10:48:02</DateInvoked>
+	<ElapsedTime>1</ElapsedTime>
+	<IsInternal>false</IsInternal>
+	<Name>quartus_map</Name>
+	<PeakMemoryUsed>0</PeakMemoryUsed>
+	<QuartusUser>
+		<AlteraUserName/>
+		<FAEContactName/>
+		<UserID>143647489152513.148807634921644</UserID>
+		<UserName>Administrator</UserName>
+		<TalkbackStatus>
+			<DateSet/>
+			<TalkbackOn>true</TalkbackOn>
+		</TalkbackStatus>
+	</QuartusUser>
+	<Compilation>
+		<CompileID>143647489152513.148807728214968</CompileID>
+		<DeviceFamily>Cyclone II</DeviceFamily>
+		<IncrementalCompilation>FULL_INCREMENTAL_COMPILATION</IncrementalCompilation>
+		<SOPCBuilderProjectID/>
+		<TopLevelEntityName>and_gate</TopLevelEntityName>
+	</Compilation>
+	<License>
+		<Edition>Full Version</Edition>
+		<LicenseHostID>82a589905601</LicenseHostID>
+	</License>
+	<SchemaVersion>schema_2008-12-15</SchemaVersion>
+	<ApplicationError>
+		<ErrorMessage>cmp_merge_kpt_db</ErrorMessage>
+		<Line>220</Line>
+		<SourceFile>/quartus/atm/amerge/amerge_kpt_op.cpp</SourceFile>
+		<StackTrace>
+	0x0fc2b0dd:
+	0x00178eab: CCL_FIO + 0x18eab (?AFC_CLSID_STW_DEFAULT_DOC@@3U_GUID@@B + 0x128b)
+	0xffffffffffffffff:
+		</StackTrace>
+		<Subsystem>AMERGE</Subsystem>
+	</ApplicationError>
+	<QuartusInstallation>
+		<InstallationID>0</InstallationID>
+		<Version>
+			<Build>132</Build>
+			<BuildSite>SJ</BuildSite>
+			<BuildSuffix/>
+			<Edition>Full Version</Edition>
+			<ServicePack>0</ServicePack>
+			<VersionNumber>9</VersionNumber>
+		</Version>
+	</QuartusInstallation>
+	<ProjectRevision>
+		<ProjectName>and_gate</ProjectName>
+		<Revision>and_gate</Revision>
+	</ProjectRevision>
+	<Machine>
+		<CPUCountLogical>4</CPUCountLogical>
+		<CPUCountPhysical>1</CPUCountPhysical>
+		<CPUSpeed>1896</CPUSpeed>
+		<Hostname>PC201604</Hostname>
+		<OS>Windows Vista</OS>
+		<OSAddressBits>64</OSAddressBits>
+		<OSVersion>6.2</OSVersion>
+		<Platform>windows</Platform>
+		<ScreenResolution>unknown</ScreenResolution>
+		<TotalPhysicalRAM>3535</TotalPhysicalRAM>
+		<TotalVirtualRAM>3584</TotalVirtualRAM>
+		<NIC>
+			<Address>82a589905601</Address>
+		</NIC>
+		<NIC>
+			<Address>b025aa159546</Address>
+		</NIC>
+		<NIC>
+			<Address>80a589905601</Address>
+		</NIC>
+	</Machine>
+</ProgramExecution>
+

@@ -1,0 +1,5 @@
+
+State Machine - |divider2|div_freq:d1|state
+Name state.s1 
+state.s0 0 
+state.s1 1 

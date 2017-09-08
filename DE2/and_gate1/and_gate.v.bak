@@ -1,0 +1,11 @@
+module and_gate (a, b, f);
+
+	input a, b;
+	
+	output f;
+
+
+
+
+
+endmodule

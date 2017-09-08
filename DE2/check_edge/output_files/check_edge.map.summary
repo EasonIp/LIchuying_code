@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Mar 20 15:13:42 2017
+Quartus II Version : 9.0 Build 132 02/25/2009 SJ Full Version
+Revision Name : check_edge
+Top-level Entity Name : check_edge
+Family : Cyclone II
+Total logic elements : 7
+    Total combinational functions : 7
+    Dedicated logic registers : 2
+Total registers : 2
+Total pins : 5
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

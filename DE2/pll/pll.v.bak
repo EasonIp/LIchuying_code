@@ -1,0 +1,12 @@
+module pll (clk, rst_n, clk_25M, clk_100M, locked);
+
+	input clk, rst_n;
+	
+	output clk_25M, clk_100M;
+	output locked;
+	
+
+
+
+
+endmodule

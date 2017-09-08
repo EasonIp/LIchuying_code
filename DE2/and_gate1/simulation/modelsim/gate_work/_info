@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ZXOPEN2016\class\and_gate\simulation\modelsim
+vand_gate
+I`neS5gbfD98?48T1VU[U[3
+Vnin3zQbCQb>X7G=l32gif1
+Z1 dD:\ZXOPEN2016\class\and_gate\simulation\modelsim
+w1477900630
+8and_gate_min_1200mv_0c_fast.vo
+Fand_gate_min_1200mv_0c_fast.vo
+L0 31
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 Q62VdA3bKg57Q?l_jZG_M2
+!s85 0
+!s108 1477900872.598000
+!s107 and_gate_min_1200mv_0c_fast.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|and_gate_min_1200mv_0c_fast.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vand_gate_tb
+!i10b 1
+!s100 mKWR@<_cd_[MbSLY;nN]?1
+IInBTPXF1`7hHhYTHoBP?c0
+VB7Fd>f5l``CMJaUOkic<F3
+R1
+w1477900314
+8D:/ZXOPEN2016/class/and_gate/and_gate_tb.v
+FD:/ZXOPEN2016/class/and_gate/and_gate_tb.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1477900872.803000
+!s107 D:/ZXOPEN2016/class/and_gate/and_gate_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ZXOPEN2016/class/and_gate|D:/ZXOPEN2016/class/and_gate/and_gate_tb.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/ZXOPEN2016/class/and_gate -O0

@@ -1,0 +1,44 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ZXOPEN2017\DE2\class\div_freq\simulation\modelsim
+vdiv_freq
+I?NjDHc5JBAIhP`3gc7^U;2
+V8AP>fB3O<o>[:<;QFO6AB1
+w1480487644
+8D:/ZXOPEN2017/DE2/class/div_freq/div_freq.v
+FD:/ZXOPEN2017/DE2/class/div_freq/div_freq.v
+L0 1
+Z1 OV;L;6.4a;39
+r1
+31
+Z2 o-vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/div_freq -O0
+!s100 k`CZoc82FbUZR]zIE:C2S1
+!s85 0
+vdivider2
+I=dNX3lQzUISF6JT[8UVYl3
+V<ANdLoCdNXo079YW?T0`>3
+w1480493310
+8D:/ZXOPEN2017/DE2/class/div_freq/divider2.v
+FD:/ZXOPEN2017/DE2/class/div_freq/divider2.v
+L0 1
+R1
+r1
+31
+R2
+!s100 kT;hB`23RD9B8Q@OFPTP@2
+!s85 0
+vdivider2_tb
+!s100 V5<E4^N2@C61nef<;ko@m2
+Ikm<`F_oN51nj>7fBaghW:1
+VmSFFH1X?K1GLOo[N3nKZ02
+w1489543889
+8D:/ZXOPEN2017/DE2/class/div_freq/divider2_tb.v
+FD:/ZXOPEN2017/DE2/class/div_freq/divider2_tb.v
+L0 3
+R1
+r1
+!s85 0
+31
+R2

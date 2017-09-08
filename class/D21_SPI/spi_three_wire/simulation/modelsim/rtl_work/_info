@@ -1,0 +1,65 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ZXOPEN2017\class\D21_SPI\spi_three_wire\simulation\modelsim
+vspi_three_wire
+I]nX?YP]SmgTQV2EFH4WQX1
+Vl:7V@L9lhfeDjIj==Ldbn3
+Z1 dD:\ZXOPEN2017\class\D21_SPI\spi_three_wire\simulation\modelsim
+w1486435397
+8D:/ZXOPEN2017/class/D21_SPI/spi_three_wire/spi_three_wire.v
+FD:/ZXOPEN2017/class/D21_SPI/spi_three_wire/spi_three_wire.v
+L0 22
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/ZXOPEN2017/class/D21_SPI/spi_three_wire -O0
+!i10b 1
+!s100 N?kRfC206kmXeDNaW]H@e3
+!s85 0
+!s108 1486458151.078000
+!s107 D:/ZXOPEN2017/class/D21_SPI/spi_three_wire/spi_three_wire.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ZXOPEN2017/class/D21_SPI/spi_three_wire|D:/ZXOPEN2017/class/D21_SPI/spi_three_wire/spi_three_wire.v|
+!s101 -O0
+vspi_write
+I1j=JLV:<gV;3EbgRn<:dO3
+V1d^LDVSm7C@=>9JA>MAkk0
+R1
+w1486437061
+8D:/ZXOPEN2017/class/D21_SPI/spi_three_wire/spi_write.v
+FD:/ZXOPEN2017/class/D21_SPI/spi_three_wire/spi_write.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 N:2aW<M6_NicYYP=9`iNO0
+!s85 0
+!s108 1486458151.225000
+!s107 D:/ZXOPEN2017/class/D21_SPI/spi_three_wire/spi_write.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ZXOPEN2017/class/D21_SPI/spi_three_wire|D:/ZXOPEN2017/class/D21_SPI/spi_three_wire/spi_write.v|
+!s101 -O0
+vspi_write_test
+!i10b 1
+!s100 WN;8XRN;[M;G:TH52^oWT0
+I4SWe058nPXJPY>4;Uz<>o3
+VTiofTQNB:YJRk67zbFkU31
+R1
+w1486437354
+8D:/ZXOPEN2017/class/D21_SPI/spi_three_wire/spi_write_test.v
+FD:/ZXOPEN2017/class/D21_SPI/spi_three_wire/spi_write_test.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1486458151.358000
+!s107 D:/ZXOPEN2017/class/D21_SPI/spi_three_wire/spi_write_test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ZXOPEN2017/class/D21_SPI/spi_three_wire|D:/ZXOPEN2017/class/D21_SPI/spi_three_wire/spi_write_test.v|
+!s101 -O0
+R3
+R4

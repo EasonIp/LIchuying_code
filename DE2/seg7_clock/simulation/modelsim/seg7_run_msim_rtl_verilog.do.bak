@@ -1,0 +1,15 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/seg7_clock {D:/ZXOPEN2017/DE2/class/seg7_clock/b2bcd_99.v}
+vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/seg7_clock {D:/ZXOPEN2017/DE2/class/seg7_clock/clock_controller.v}
+vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/seg7_clock {D:/ZXOPEN2017/DE2/class/seg7_clock/seg7.v}
+vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/seg7_clock {D:/ZXOPEN2017/DE2/class/seg7_clock/top.v}
+vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/seg7_clock {D:/ZXOPEN2017/DE2/class/seg7_clock/LCD_Controller.v}
+vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/seg7_clock {D:/ZXOPEN2017/DE2/class/seg7_clock/LCD_TEST.v}
+vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/seg7_clock {D:/ZXOPEN2017/DE2/class/seg7_clock/Reset_Delay.v}
+

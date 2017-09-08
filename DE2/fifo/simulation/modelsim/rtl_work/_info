@@ -1,0 +1,70 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ZXOPEN2017\DE2\class\fifo\simulation\modelsim
+vfifo
+IzC_lkaLWQMRK<jTQ>[eQh3
+V@MiY7A:8YI1jiA3nU2`A:3
+w1479802795
+8D:/ZXOPEN2017/DE2/class/fifo/fifo.v
+FD:/ZXOPEN2017/DE2/class/fifo/fifo.v
+L0 1
+Z1 OV;L;6.4a;39
+r1
+31
+Z2 o-vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/fifo -O0
+!s100 Z<H9i9B]4GD3Dg<8:Iof93
+!s85 0
+vfifo_read
+ICM>e;46bKc1zdJ0:bbYFH1
+V3a[3?^Dz2K9m0oJ7;MF0Z3
+w1479802771
+8D:/ZXOPEN2017/DE2/class/fifo/fifo_read.v
+FD:/ZXOPEN2017/DE2/class/fifo/fifo_read.v
+L0 1
+R1
+r1
+31
+R2
+!s100 fFVKW7Ga]cKfgQ;f4R8>G1
+!s85 0
+vfifo_tb
+!s100 n8WdH@[X>P3o38H1M>]j80
+I:0B=bIMdHc8>;`]EEIXOZ2
+VE6FzO6X^BSHbEP>3A9AN]2
+w1479803001
+8D:/ZXOPEN2017/DE2/class/fifo/fifo_tb.v
+FD:/ZXOPEN2017/DE2/class/fifo/fifo_tb.v
+L0 3
+R1
+r1
+!s85 0
+31
+R2
+vfifo_write
+I9LKRP=9DUN49LSA[;iXOb2
+V3^iC9moeLfaSi_z8VT[Nz2
+w1479802393
+8D:/ZXOPEN2017/DE2/class/fifo/fifo_write.v
+FD:/ZXOPEN2017/DE2/class/fifo/fifo_write.v
+L0 1
+R1
+r1
+31
+R2
+!s100 h2n1Jj01:mn^9_]M[kRdb3
+!s85 0
+vmy_fifo
+IXTDzhT5[XBV0oA<f^fF4n2
+VQndE5EPhL_1o`H?lGC=7L3
+w1490929192
+8D:/ZXOPEN2017/DE2/class/fifo/my_fifo.v
+FD:/ZXOPEN2017/DE2/class/fifo/my_fifo.v
+L0 39
+R1
+r1
+31
+R2
+!s100 c86IX`nLIc30_JBEV:SoS1
+!s85 0

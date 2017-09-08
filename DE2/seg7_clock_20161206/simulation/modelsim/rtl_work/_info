@@ -1,0 +1,37 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\lcy\seg7\simulation\modelsim
+vseg7
+I@Gf<SBb0<2ECG_a?0jjKg2
+Vf2dT=P_;=ZEo[L@NoAzgU3
+Z1 dF:\lcy\seg7\simulation\modelsim
+w1480728015
+8F:/lcy/seg7/seg7.v
+FF:/lcy/seg7/seg7.v
+L0 1
+Z2 OV;L;6.6d;45
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+F:/lcy/seg7 -O0
+!s100 A^g_Nj<Oha3c7Xe;QEjL<2
+!s85 0
+!s101 -O0
+vseg7_tb
+!s100 0m9a5zd>n8>:4_:<cVd6F1
+IMjafD3oZc4gF8CWKjh]nn0
+VNY1ci;N3cPoEVI?S>H<iN1
+R1
+w1480727161
+8F:/lcy/seg7/seg7_tb.v
+FF:/lcy/seg7/seg7_tb.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s101 -O0
+R3
+R4

@@ -1,0 +1,15 @@
+module uart_tx (clk, rst_n, rs232_rx, rx_sel_data, rx_num, rx_en, tx_en, rx_d);
+
+	input clk, rst_n;
+	input rs232_rx;
+	input rx_sel_data;
+	input [3:0] rx_num;
+	
+	output rx_en;
+	output tx_en;
+	output [7:0] rx_d;
+
+	
+
+
+endmodule

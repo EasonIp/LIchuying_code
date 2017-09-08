@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ZXOPEN2016\class\iic\simulation\modelsim
+viic_noack
+!i10b 1
+!s100 >6>>HSWi9D<o:<DQ[azP`0
+I;HznG_A_5ma:XnFkXz@IM2
+VOnnUQ=5mWiYA_CE]O90dL0
+Z1 dD:\ZXOPEN2016\class\iic\simulation\modelsim
+w1476706434
+8D:/ZXOPEN2016/class/iic/iic_noack.v
+FD:/ZXOPEN2016/class/iic/iic_noack.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1476706469.033000
+!s107 D:/ZXOPEN2016/class/iic/iic_noack.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ZXOPEN2016/class/iic|-O0|D:/ZXOPEN2016/class/iic/iic_noack.v|
+!s101 -O0
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/ZXOPEN2016/class/iic -O0
+viic_noack_tb
+I1i;AQY6S>_;7fD[2IEoR00
+VV_Pbao;EYiVeRE37FjC?V3
+R1
+w1476696445
+8D:/ZXOPEN2016/class/iic/iic_noack_tb.v
+FD:/ZXOPEN2016/class/iic/iic_noack_tb.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 Y?zGNCe=^7l;:nER^dTbA0
+!s85 0
+!s108 1476696704.031000
+!s107 D:/ZXOPEN2016/class/iic/iic_noack_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ZXOPEN2016/class/iic|D:/ZXOPEN2016/class/iic/iic_noack_tb.v|
+!s101 -O0

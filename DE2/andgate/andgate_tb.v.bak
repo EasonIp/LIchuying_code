@@ -1,0 +1,14 @@
+module andgate_tb;
+
+	reg a, b;
+	
+	wire f;
+	
+	andgate dut (.a(a), .b(b), .f(f));
+
+
+
+
+
+
+endmodule

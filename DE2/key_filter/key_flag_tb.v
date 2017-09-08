@@ -1,0 +1,48 @@
+`timescale 1ns/1ps
+
+module key_flag_tb;
+
+	reg clk, rst_n;
+	reg key_n;
+	
+	wire key_out;
+	
+	key_flag #(.MASK_TIME(5)) 
+		dut (.clk(clk), .rst_n(rst_n), .key_n(key_n), .key_out(key_out));
+		
+	initial
+		begin
+			clk = 1;
+			rst_n = 0;
+			key_n = 1;
+			#200.1
+			rst_n = 1;
+			
+			#200
+			key_n = 0;
+			#10
+			key_n = 1;
+			#20
+			key_n = 0;
+			#80
+			key_n = 1;
+			#200
+			key_n = 0;	
+			#400			//key hold time is long enough
+			key_n = 1;
+			#10
+			key_n = 0;
+			#20
+			key_n = 1;
+			#80
+			key_n = 0;
+			#200
+			key_n = 1;
+			#200			//key hold time is long enough
+			
+			#200 $stop;
+		end
+		
+	always #10 clk = ~clk;
+
+endmodule

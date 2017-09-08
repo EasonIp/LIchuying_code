@@ -1,0 +1,89 @@
+# Reading D:/altera/90/modelsim_ae/tcl/vsim/pref.tcl 
+# do seg7_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\altera\90\modelsim_ae\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\altera\90\modelsim_ae\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/seg7_clock {D:/ZXOPEN2017/DE2/class/seg7_clock/b2bcd_99.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module b2bcd_99
+# 
+# Top level modules:
+# 	b2bcd_99
+# vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/seg7_clock {D:/ZXOPEN2017/DE2/class/seg7_clock/clock_controller.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module clock_controller
+# ** Warning: D:/ZXOPEN2017/DE2/class/seg7_clock/clock_controller.v(43): [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	clock_controller
+# vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/seg7_clock {D:/ZXOPEN2017/DE2/class/seg7_clock/seg7.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module seg7
+# 
+# Top level modules:
+# 	seg7
+# vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/seg7_clock {D:/ZXOPEN2017/DE2/class/seg7_clock/top.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/seg7_clock {D:/ZXOPEN2017/DE2/class/seg7_clock/LCD_Controller.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module LCD_Controller
+# 
+# Top level modules:
+# 	LCD_Controller
+# vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/seg7_clock {D:/ZXOPEN2017/DE2/class/seg7_clock/LCD_TEST.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module LCD_TEST
+# 
+# Top level modules:
+# 	LCD_TEST
+# vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/seg7_clock {D:/ZXOPEN2017/DE2/class/seg7_clock/Reset_Delay.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module Reset_Delay
+# 
+# Top level modules:
+# 	Reset_Delay
+# 
+# vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/seg7_clock {D:/ZXOPEN2017/DE2/class/seg7_clock/seg7_tb.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module seg7_tb
+# 
+# Top level modules:
+# 	seg7_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc" seg7_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps seg7_tb 
+# //  ModelSim ALTERA 6.4a Oct 22 2008 
+# //
+# //  Copyright 1991-2008 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading work.seg7_tb
+# Loading work.seg7
+# ** Warning: (vsim-3009) [TSCALE] - Module 'seg7' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /seg7_tb/dut
+# 
+# add wave *
+# view structure
+# .main_pane.workspace.interior.cs.nb.canvas.notebook.cs.page2.cs
+# view signals
+# .main_pane.signals.interior.cs
+# run -all
+# Break in Module seg7_tb at D:/ZXOPEN2017/DE2/class/seg7_clock/seg7_tb.v line 19
+# Simulation Breakpoint: Break in Module seg7_tb at D:/ZXOPEN2017/DE2/class/seg7_clock/seg7_tb.v line 19
+# MACRO ./seg7_run_msim_rtl_verilog.do PAUSED at line 23

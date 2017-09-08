@@ -1,0 +1,13 @@
+Mon Feb 06 16:52:23 ?????? 2017
+Trace back: 
+    while executing
+"macroMark"
+    (procedure "update" line 6)
+    invoked from within
+"update"
+    (procedure "mtiBalloon::_popUp" line 49)
+    invoked from within
+"mtiBalloon::_popUp .dockbar.tbf2.simulate.tb.button_30 404 104 -1 -1"
+    ("after" script)
+  <2: ::tkerror {}
+  <1: ::bgerror {}

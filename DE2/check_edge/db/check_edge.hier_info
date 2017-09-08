@@ -1,0 +1,12 @@
+|check_edge
+clk => buffer1.CLK
+clk => buffer2.CLK
+rst_n => buffer1.ALOAD
+rst_n => buffer2.ALOAD
+signal => buffer1.ADATA
+signal => buffer1.DATAIN
+signal => buffer2.ADATA
+neg_flag <= neg_flag~0.DB_MAX_OUTPUT_PORT_TYPE
+pos_flag <= pos_flag~0.DB_MAX_OUTPUT_PORT_TYPE
+
+

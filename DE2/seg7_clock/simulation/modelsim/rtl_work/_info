@@ -1,0 +1,112 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ZXOPEN2017\DE2\class\seg7_clock\simulation\modelsim
+vb2bcd_99
+IXjSJW5LSDD>gQ==9VhEL11
+VmVV4H6a]3RQE`IkzQ?I7j1
+w1480815262
+8D:/ZXOPEN2017/DE2/class/seg7_clock/b2bcd_99.v
+FD:/ZXOPEN2017/DE2/class/seg7_clock/b2bcd_99.v
+L0 1
+Z1 OV;L;6.4a;39
+r1
+31
+Z2 o-vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/seg7_clock -O0
+!s100 S>ImP@<zE:Ja>k@3;GOGm1
+!s85 0
+vclock_controller
+I7UO238MeET1JiEghSLAhV2
+V^AniFgXWRJYYFFQWmzkH=1
+w1490320066
+8D:/ZXOPEN2017/DE2/class/seg7_clock/clock_controller.v
+FD:/ZXOPEN2017/DE2/class/seg7_clock/clock_controller.v
+L0 1
+R1
+r1
+31
+R2
+!s100 GbY41@on96FXb6=fKBDe]3
+!s85 0
+vLCD_Controller
+I^h5P=4=BLM=OF[PmbcK2A0
+Vde<6OC:bXZCJ2D77b@[Wh1
+w1490363165
+8D:/ZXOPEN2017/DE2/class/seg7_clock/LCD_Controller.v
+FD:/ZXOPEN2017/DE2/class/seg7_clock/LCD_Controller.v
+L0 1
+R1
+r1
+31
+R2
+n@l@c@d_@controller
+!s100 icWfC?9AED2?hH9bXPUHe2
+!s85 0
+vLCD_TEST
+I_>K[MM=oFTHc3a;gYY2]F1
+VVMlfX]eoRQU6EIVePRiDH2
+w1490366286
+8D:/ZXOPEN2017/DE2/class/seg7_clock/LCD_TEST.v
+FD:/ZXOPEN2017/DE2/class/seg7_clock/LCD_TEST.v
+L0 1
+R1
+r1
+31
+R2
+n@l@c@d_@t@e@s@t
+!s100 BIRU`hZF?YiCQQ08=2od^2
+!s85 0
+vReset_Delay
+IA=nM_I^[YE=05eK^mhoDb0
+VDoL>1[=KXh_Qfl<A4]Nfm0
+w1490335985
+8D:/ZXOPEN2017/DE2/class/seg7_clock/Reset_Delay.v
+FD:/ZXOPEN2017/DE2/class/seg7_clock/Reset_Delay.v
+L0 1
+R1
+r1
+31
+R2
+n@reset_@delay
+!s100 ZlKc=V1d;7CbdfOT]lomi2
+!s85 0
+vseg7
+I2JK_OalE8MKkGIm<S90Bl1
+VzZYUGhdnn5RAzgmo?DUfk3
+w1490321581
+8D:/ZXOPEN2017/DE2/class/seg7_clock/seg7.v
+FD:/ZXOPEN2017/DE2/class/seg7_clock/seg7.v
+L0 1
+R1
+r1
+31
+R2
+!s100 W32;8A^G]E?jQ?aAS?Oj>0
+!s85 0
+vseg7_tb
+!s100 d4mEOo64^IOffVcJDmDAz3
+In`B^RhNacaX3BAB:7KDF>2
+VNY1ci;N3cPoEVI?S>H<iN1
+w1490370438
+8D:/ZXOPEN2017/DE2/class/seg7_clock/seg7_tb.v
+FD:/ZXOPEN2017/DE2/class/seg7_clock/seg7_tb.v
+L0 3
+R1
+r1
+!s85 0
+31
+R2
+vtop
+IYZd^kD<PE>Ch9:9cX64o<3
+VBljiGN?d4lGRDF=X@5^QA1
+w1490345898
+8D:/ZXOPEN2017/DE2/class/seg7_clock/top.v
+FD:/ZXOPEN2017/DE2/class/seg7_clock/top.v
+L0 1
+R1
+r1
+31
+R2
+!s100 0dUKen:78H2UbHIl0kh`N0
+!s85 0

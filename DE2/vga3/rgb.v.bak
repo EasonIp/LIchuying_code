@@ -1,0 +1,11 @@
+module vga_driver(clk, rst_n, en);
+
+	input clk, rst_n;
+	
+	output en;
+	
+	
+
+	
+
+endmodule

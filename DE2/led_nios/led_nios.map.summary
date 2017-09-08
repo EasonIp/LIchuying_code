@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Mar 09 16:23:16 2017
+Quartus II Version : 9.0 Build 132 02/25/2009 SJ Full Version
+Revision Name : led_nios
+Top-level Entity Name : led_nios
+Family : Cyclone II
+Total logic elements : 1,132
+    Total combinational functions : 1,044
+    Dedicated logic registers : 554
+Total registers : 554
+Total pins : 6
+Total virtual pins : 0
+Total memory bits : 41,984
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

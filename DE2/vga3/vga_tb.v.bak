@@ -1,0 +1,17 @@
+module vga(clk, rst_n, r, g, b, hsync, vsync);
+
+	input clk, rst_n;
+	
+	output [2:0] r, g;
+	output [1:0] b;
+	output hsync, vsync;
+
+	
+	pll p1(.areset(rst_n), .inclk0(clk), .c0(clk_40m));
+	
+	vga_driver d1(.clk(clk_40m), .rst_n(rst_n), .en(en), .hsync(hsync), .vsync(vsync));
+	
+	rgb rgb1(.rst_n(rst_n), .en(en));
+	
+
+endmodule

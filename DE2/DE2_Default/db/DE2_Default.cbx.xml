@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="DE2_Default">
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE2_Default|I2C_AV_Config:u3|altsyncram:Ram0_rtl_0" CBX_FILE_NAME="altsyncram_ct01.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE2_Default|VGA_OSD_RAM:u2|Img_RAM:u0|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_f6r1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

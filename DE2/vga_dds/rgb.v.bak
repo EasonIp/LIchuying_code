@@ -1,0 +1,11 @@
+module rgb (rgb30, r, g, b);
+
+	input [29:0] rgb30;
+	
+	output [9:0] r, g, b;
+
+	assign r = rgb8[7:5];
+	assign g = rgb8[4:2];
+	assign b = rgb8[1:0];
+
+endmodule

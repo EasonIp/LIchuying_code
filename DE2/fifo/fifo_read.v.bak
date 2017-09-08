@@ -1,0 +1,14 @@
+module fifo_read (clk, rst_n, rdfull, rdempty, rdreq);
+
+	input clk, rst_n;
+	input wrfull, wrempty;
+	
+	output wrreq;
+	
+	
+
+
+
+
+
+endmodule

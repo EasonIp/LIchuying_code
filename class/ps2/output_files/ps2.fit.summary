@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue Oct 18 11:29:38 2016
+Quartus II 64-Bit Version : 13.0.0 Build 156 04/24/2013 SJ Web Edition
+Revision Name : ps2
+Top-level Entity Name : ps2
+Family : Cyclone IV E
+Device : EP4CE10F17C8
+Timing Models : Final
+Total logic elements : 648 / 10,320 ( 6 % )
+    Total combinational functions : 460 / 10,320 ( 4 % )
+    Dedicated logic registers : 494 / 10,320 ( 5 % )
+Total registers : 494
+Total pins : 13 / 180 ( 7 % )
+Total virtual pins : 0
+Total memory bits : 131,072 / 423,936 ( 31 % )
+Embedded Multiplier 9-bit elements : 0 / 46 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

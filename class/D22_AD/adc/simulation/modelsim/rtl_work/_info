@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ZXOPEN2017\class\adc\simulation\modelsim
+vadc
+IMY3iOP>TFC76@SXUE<NMC3
+VFZT62f6in3JmITJ@f^WAT2
+Z1 dD:\ZXOPEN2017\class\adc\simulation\modelsim
+w1486605710
+8D:/ZXOPEN2017/class/adc/adc.v
+FD:/ZXOPEN2017/class/adc/adc.v
+L0 12
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 2i@Ia8F`<1oYB_4g`5WnK1
+!s85 0
+!s108 1486606262.109000
+!s107 D:/ZXOPEN2017/class/adc/adc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ZXOPEN2017/class/adc|D:/ZXOPEN2017/class/adc/adc.v|
+!s101 -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/ZXOPEN2017/class/adc -O0
+vadc_tb
+!i10b 1
+!s100 =eAEc[h7CicYeKZQIRORG1
+IJ25S^B6T`?5md@36^[gg11
+VL^^ghHa^:=dzFe6^NhcU@0
+R1
+w1486606179
+8D:/ZXOPEN2017/class/adc/adc_tb.v
+FD:/ZXOPEN2017/class/adc/adc_tb.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1486606262.313000
+!s107 D:/ZXOPEN2017/class/adc/adc_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ZXOPEN2017/class/adc|D:/ZXOPEN2017/class/adc/adc_tb.v|
+!s101 -O0
+R3
+R4

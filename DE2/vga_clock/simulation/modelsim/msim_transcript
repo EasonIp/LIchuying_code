@@ -1,0 +1,328 @@
+# Reading D:/altera/90/modelsim_ae/tcl/vsim/pref.tcl 
+# do vga_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\altera\90\modelsim_ae\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\altera\90\modelsim_ae\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/vga_clock {D:/ZXOPEN2017/DE2/class/vga_clock/rgb.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module rgb
+# 
+# Top level modules:
+# 	rgb
+# vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/vga_clock {D:/ZXOPEN2017/DE2/class/vga_clock/top.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/vga_clock {D:/ZXOPEN2017/DE2/class/vga_clock/pll.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module pll
+# 
+# Top level modules:
+# 	pll
+# vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/vga_clock {D:/ZXOPEN2017/DE2/class/vga_clock/vga_data8.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module vga_data8
+# 
+# Top level modules:
+# 	vga_data8
+# vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/vga_clock {D:/ZXOPEN2017/DE2/class/vga_clock/rom256_digits.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module rom256_digits
+# 
+# Top level modules:
+# 	rom256_digits
+# vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/vga_clock {D:/ZXOPEN2017/DE2/class/vga_clock/ram256_data.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module ram256_data
+# 
+# Top level modules:
+# 	ram256_data
+# vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/vga_clock {D:/ZXOPEN2017/DE2/class/vga_clock/clock_controller.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module clock_controller
+# ** Warning: D:/ZXOPEN2017/DE2/class/vga_clock/clock_controller.v(43): [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	clock_controller
+# vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/vga_clock {D:/ZXOPEN2017/DE2/class/vga_clock/b2bcd_99.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module b2bcd_99
+# 
+# Top level modules:
+# 	b2bcd_99
+# 
+# vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/vga_clock {D:/ZXOPEN2017/DE2/class/vga_clock/top_tb.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module top_tb
+# 
+# Top level modules:
+# 	top_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc" top_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L cycloneii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps top_tb 
+# //  ModelSim ALTERA 6.4a Oct 22 2008 
+# //
+# //  Copyright 1991-2008 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading work.top_tb
+# Loading work.top
+# ** Warning: (vsim-3009) [TSCALE] - Module 'top' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /top_tb/dut
+# Loading work.clock_controller
+# ** Warning: (vsim-3009) [TSCALE] - Module 'clock_controller' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /top_tb/dut/clock_controller_inst
+# Loading work.b2bcd_99
+# ** Warning: (vsim-3009) [TSCALE] - Module 'b2bcd_99' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /top_tb/dut/b2bcd_99_inst1
+# Loading work.pll
+# Loading altera_mf_ver.altpll
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.MF_stratix_pll
+# Loading altera_mf_ver.stx_m_cntr
+# Loading altera_mf_ver.stx_n_cntr
+# Loading altera_mf_ver.stx_scale_cntr
+# Loading altera_mf_ver.MF_pll_reg
+# Loading altera_mf_ver.dffp
+# Loading altera_mf_ver.MF_stratixii_pll
+# Loading altera_mf_ver.arm_m_cntr
+# Loading altera_mf_ver.arm_n_cntr
+# Loading altera_mf_ver.arm_scale_cntr
+# Loading altera_mf_ver.MF_stratixiii_pll
+# Loading altera_mf_ver.ttn_m_cntr
+# Loading altera_mf_ver.ttn_n_cntr
+# Loading altera_mf_ver.ttn_scale_cntr
+# Loading altera_mf_ver.MF_cycloneiii_pll
+# Loading altera_mf_ver.cda_m_cntr
+# Loading altera_mf_ver.cda_n_cntr
+# Loading altera_mf_ver.cda_scale_cntr
+# Loading altera_mf_ver.pll_iobuf
+# Loading work.vga_data8
+# ** Warning: (vsim-3009) [TSCALE] - Module 'vga_data8' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /top_tb/dut/vga_data8
+# Loading work.rom256_digits
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.ram256_data
+# Loading work.rgb
+# ** Warning: (vsim-3009) [TSCALE] - Module 'rgb' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /top_tb/dut/rgb
+# 
+# add wave *
+# view structure
+# .main_pane.workspace.interior.cs.nb.canvas.notebook.cs.page2.cs
+# view signals
+# .main_pane.signals.interior.cs
+# run -all
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "digits.mif" for reading.
+# No such file or directory. (errno = ENOENT)    : D:/altera/90/modelsim_ae/win32aloem/../altera/verilog/src/altera_mf.v(191)
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/dut/vga_data8/rom256_digits/altsyncram_component
+# ERROR: cannot read digits.mif.
+# ** Warning: (vsim-7) Failed to open readmem file "digits.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : D:/altera/90/modelsim_ae/win32aloem/../altera/verilog/src/altera_mf.v(44184)
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/dut/vga_data8/rom256_digits/altsyncram_component
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "data16.mif" for reading.
+# No such file or directory. (errno = ENOENT)    : D:/altera/90/modelsim_ae/win32aloem/../altera/verilog/src/altera_mf.v(191)
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/dut/vga_data8/ram256_data/altsyncram_component
+# ERROR: cannot read data16.mif.
+# ** Warning: (vsim-7) Failed to open readmem file "data16.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : D:/altera/90/modelsim_ae/win32aloem/../altera/verilog/src/altera_mf.v(44184)
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/dut/vga_data8/ram256_data/altsyncram_component
+# Warning : Invalid transition to 'X' detected on StratixII PLL input clk. This edge will be ignored.
+# Time: 0  Instance: top_tb.dut.pll.altpll_component.pll1.n1
+#  Note : Cyclone II PLL is enabled
+# Time: 0  Instance: top_tb.dut.pll.altpll_component.pll1
+#  Note : Cyclone II PLL was reset
+# Time: 0  Instance: top_tb.dut.pll.altpll_component.pll1
+#  Note : Cyclone II PLL locked to incoming clock
+# Time: 300000  Instance: top_tb.dut.pll.altpll_component.pll1
+# Break key hit 
+# Break in Module MF_stratixii_pll at D:/altera/90/modelsim_ae/win32aloem/../altera/verilog/src/altera_mf.v line 8636
+# Simulation Breakpoint: Break in Module MF_stratixii_pll at D:/altera/90/modelsim_ae/win32aloem/../altera/verilog/src/altera_mf.v line 8636
+# MACRO ./vga_run_msim_rtl_verilog.do PAUSED at line 24
+add wave sim:/top_tb/dut/vga_data8/*
+restart
+# ** Warning: (vsim-3009) [TSCALE] - Module 'top' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /top_tb/dut
+# ** Warning: (vsim-3009) [TSCALE] - Module 'clock_controller' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /top_tb/dut/clock_controller_inst
+# ** Warning: (vsim-3009) [TSCALE] - Module 'b2bcd_99' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /top_tb/dut/b2bcd_99_inst1
+# ** Warning: (vsim-3009) [TSCALE] - Module 'vga_data8' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /top_tb/dut/vga_data8
+# ** Warning: (vsim-3009) [TSCALE] - Module 'rgb' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /top_tb/dut/rgb
+run -all
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "digits.mif" for reading.
+# No such file or directory. (errno = ENOENT)    : D:/altera/90/modelsim_ae/win32aloem/../altera/verilog/src/altera_mf.v(191)
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/dut/vga_data8/rom256_digits/altsyncram_component
+# ERROR: cannot read digits.mif.
+# ** Warning: (vsim-7) Failed to open readmem file "digits.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : D:/altera/90/modelsim_ae/win32aloem/../altera/verilog/src/altera_mf.v(44184)
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/dut/vga_data8/rom256_digits/altsyncram_component
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "data16.mif" for reading.
+# No such file or directory. (errno = ENOENT)    : D:/altera/90/modelsim_ae/win32aloem/../altera/verilog/src/altera_mf.v(191)
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/dut/vga_data8/ram256_data/altsyncram_component
+# ERROR: cannot read data16.mif.
+# ** Warning: (vsim-7) Failed to open readmem file "data16.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : D:/altera/90/modelsim_ae/win32aloem/../altera/verilog/src/altera_mf.v(44184)
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/dut/vga_data8/ram256_data/altsyncram_component
+# Warning : Invalid transition to 'X' detected on StratixII PLL input clk. This edge will be ignored.
+# Time: 0  Instance: top_tb.dut.pll.altpll_component.pll1.n1
+#  Note : Cyclone II PLL is enabled
+# Time: 0  Instance: top_tb.dut.pll.altpll_component.pll1
+#  Note : Cyclone II PLL was reset
+# Time: 0  Instance: top_tb.dut.pll.altpll_component.pll1
+#  Note : Cyclone II PLL locked to incoming clock
+# Time: 300000  Instance: top_tb.dut.pll.altpll_component.pll1
+# Break in Module top_tb at D:/ZXOPEN2017/DE2/class/vga_clock/top_tb.v line 32
+vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/vga_clock -O0 D:/ZXOPEN2017/DE2/class/vga_clock/vga_data8.v
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module vga_data8
+# 
+# Top level modules:
+# 	vga_data8
+restart
+# ** Warning: (vsim-3009) [TSCALE] - Module 'top' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /top_tb/dut
+# ** Warning: (vsim-3009) [TSCALE] - Module 'clock_controller' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /top_tb/dut/clock_controller_inst
+# ** Warning: (vsim-3009) [TSCALE] - Module 'b2bcd_99' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /top_tb/dut/b2bcd_99_inst1
+# Loading work.vga_data8
+# ** Warning: (vsim-3009) [TSCALE] - Module 'vga_data8' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /top_tb/dut/vga_data8
+# ** Warning: (vsim-3009) [TSCALE] - Module 'rgb' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /top_tb/dut/rgb
+run -all
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "digits.mif" for reading.
+# No such file or directory. (errno = ENOENT)    : D:/altera/90/modelsim_ae/win32aloem/../altera/verilog/src/altera_mf.v(191)
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/dut/vga_data8/rom256_digits/altsyncram_component
+# ERROR: cannot read digits.mif.
+# ** Warning: (vsim-7) Failed to open readmem file "digits.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : D:/altera/90/modelsim_ae/win32aloem/../altera/verilog/src/altera_mf.v(44184)
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/dut/vga_data8/rom256_digits/altsyncram_component
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "data16.mif" for reading.
+# No such file or directory. (errno = ENOENT)    : D:/altera/90/modelsim_ae/win32aloem/../altera/verilog/src/altera_mf.v(191)
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/dut/vga_data8/ram256_data/altsyncram_component
+# ERROR: cannot read data16.mif.
+# ** Warning: (vsim-7) Failed to open readmem file "data16.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : D:/altera/90/modelsim_ae/win32aloem/../altera/verilog/src/altera_mf.v(44184)
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/dut/vga_data8/ram256_data/altsyncram_component
+# Warning : Invalid transition to 'X' detected on StratixII PLL input clk. This edge will be ignored.
+# Time: 0  Instance: top_tb.dut.pll.altpll_component.pll1.n1
+#  Note : Cyclone II PLL is enabled
+# Time: 0  Instance: top_tb.dut.pll.altpll_component.pll1
+#  Note : Cyclone II PLL was reset
+# Time: 0  Instance: top_tb.dut.pll.altpll_component.pll1
+#  Note : Cyclone II PLL locked to incoming clock
+# Time: 300000  Instance: top_tb.dut.pll.altpll_component.pll1
+# Break key hit 
+# Simulation stop requested.
+vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/vga_clock -O0 D:/ZXOPEN2017/DE2/class/vga_clock/vga_data8.v
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module vga_data8
+# 
+# Top level modules:
+# 	vga_data8
+restart
+# ** Warning: (vsim-3009) [TSCALE] - Module 'top' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /top_tb/dut
+# ** Warning: (vsim-3009) [TSCALE] - Module 'clock_controller' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /top_tb/dut/clock_controller_inst
+# ** Warning: (vsim-3009) [TSCALE] - Module 'b2bcd_99' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /top_tb/dut/b2bcd_99_inst1
+# Loading work.vga_data8
+# ** Warning: (vsim-3009) [TSCALE] - Module 'vga_data8' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /top_tb/dut/vga_data8
+# ** Warning: (vsim-3009) [TSCALE] - Module 'rgb' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /top_tb/dut/rgb
+run -all
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "digits.mif" for reading.
+# No such file or directory. (errno = ENOENT)    : D:/altera/90/modelsim_ae/win32aloem/../altera/verilog/src/altera_mf.v(191)
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/dut/vga_data8/rom256_digits/altsyncram_component
+# ERROR: cannot read digits.mif.
+# ** Warning: (vsim-7) Failed to open readmem file "digits.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : D:/altera/90/modelsim_ae/win32aloem/../altera/verilog/src/altera_mf.v(44184)
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/dut/vga_data8/rom256_digits/altsyncram_component
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "data16.mif" for reading.
+# No such file or directory. (errno = ENOENT)    : D:/altera/90/modelsim_ae/win32aloem/../altera/verilog/src/altera_mf.v(191)
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/dut/vga_data8/ram256_data/altsyncram_component
+# ERROR: cannot read data16.mif.
+# ** Warning: (vsim-7) Failed to open readmem file "data16.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : D:/altera/90/modelsim_ae/win32aloem/../altera/verilog/src/altera_mf.v(44184)
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/dut/vga_data8/ram256_data/altsyncram_component
+# Warning : Invalid transition to 'X' detected on StratixII PLL input clk. This edge will be ignored.
+# Time: 0  Instance: top_tb.dut.pll.altpll_component.pll1.n1
+#  Note : Cyclone II PLL is enabled
+# Time: 0  Instance: top_tb.dut.pll.altpll_component.pll1
+#  Note : Cyclone II PLL was reset
+# Time: 0  Instance: top_tb.dut.pll.altpll_component.pll1
+#  Note : Cyclone II PLL locked to incoming clock
+# Time: 300000  Instance: top_tb.dut.pll.altpll_component.pll1
+# Break in Module top_tb at D:/ZXOPEN2017/DE2/class/vga_clock/top_tb.v line 32
+vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/vga_clock -O0 D:/ZXOPEN2017/DE2/class/vga_clock/top_tb.v
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module top_tb
+# 
+# Top level modules:
+# 	top_tb
+restart
+# Loading work.top_tb
+# ** Warning: (vsim-3009) [TSCALE] - Module 'top' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /top_tb/dut
+# ** Warning: (vsim-3009) [TSCALE] - Module 'clock_controller' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /top_tb/dut/clock_controller_inst
+# ** Warning: (vsim-3009) [TSCALE] - Module 'b2bcd_99' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /top_tb/dut/b2bcd_99_inst1
+# ** Warning: (vsim-3009) [TSCALE] - Module 'vga_data8' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /top_tb/dut/vga_data8
+# ** Warning: (vsim-3009) [TSCALE] - Module 'rgb' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /top_tb/dut/rgb
+run -all
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "digits.mif" for reading.
+# No such file or directory. (errno = ENOENT)    : D:/altera/90/modelsim_ae/win32aloem/../altera/verilog/src/altera_mf.v(191)
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/dut/vga_data8/rom256_digits/altsyncram_component
+# ERROR: cannot read digits.mif.
+# ** Warning: (vsim-7) Failed to open readmem file "digits.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : D:/altera/90/modelsim_ae/win32aloem/../altera/verilog/src/altera_mf.v(44184)
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/dut/vga_data8/rom256_digits/altsyncram_component
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "data16.mif" for reading.
+# No such file or directory. (errno = ENOENT)    : D:/altera/90/modelsim_ae/win32aloem/../altera/verilog/src/altera_mf.v(191)
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/dut/vga_data8/ram256_data/altsyncram_component
+# ERROR: cannot read data16.mif.
+# ** Warning: (vsim-7) Failed to open readmem file "data16.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : D:/altera/90/modelsim_ae/win32aloem/../altera/verilog/src/altera_mf.v(44184)
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/dut/vga_data8/ram256_data/altsyncram_component
+# Warning : Invalid transition to 'X' detected on StratixII PLL input clk. This edge will be ignored.
+# Time: 0  Instance: top_tb.dut.pll.altpll_component.pll1.n1
+#  Note : Cyclone II PLL is enabled
+# Time: 0  Instance: top_tb.dut.pll.altpll_component.pll1
+#  Note : Cyclone II PLL was reset
+# Time: 0  Instance: top_tb.dut.pll.altpll_component.pll1
+#  Note : Cyclone II PLL locked to incoming clock
+# Time: 300000  Instance: top_tb.dut.pll.altpll_component.pll1
+# Break in Module top_tb at D:/ZXOPEN2017/DE2/class/vga_clock/top_tb.v line 32
+vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/vga_clock -O0 D:/ZXOPEN2017/DE2/class/vga_clock/top_tb.v
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module top_tb
+# 
+# Top level modules:
+# 	top_tb
+run -continue
+# Break key hit 
+# Break in Module MF_stratixii_pll at D:/altera/90/modelsim_ae/win32aloem/../altera/verilog/src/altera_mf.v line 8660

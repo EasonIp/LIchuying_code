@@ -1,0 +1,57 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ZXOPEN2017\DE2\class\rom\simulation\modelsim
+vmy_rom
+IiMbc;4`jWFm[n2<6@f<=z1
+V4W6mz?Y7<Y4Ak<EbBgjIl2
+w1490924418
+8D:/ZXOPEN2017/DE2/class/rom/my_rom.v
+FD:/ZXOPEN2017/DE2/class/rom/my_rom.v
+L0 39
+Z1 OV;L;6.4a;39
+r1
+31
+Z2 o-vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/rom -O0
+!s100 ME6UFXCYFiBggihQFgXnI1
+!s85 0
+vrom
+I^^Z4f99m4Kh@2WM5Z5hma3
+VPS]fazjKlNjm?BW490iS?0
+w1479458401
+8D:/ZXOPEN2017/DE2/class/rom/rom.v
+FD:/ZXOPEN2017/DE2/class/rom/rom.v
+L0 1
+R1
+r1
+31
+R2
+!s100 b^8M5kF`0;25AdmQ3alM92
+!s85 0
+vrom_controller
+IDm_3be7TKHf6[C_Vkd<^K2
+VXmiH?@fIziW=XROcz299H0
+w1479458567
+8D:/ZXOPEN2017/DE2/class/rom/rom_controller.v
+FD:/ZXOPEN2017/DE2/class/rom/rom_controller.v
+L0 1
+R1
+r1
+31
+R2
+!s100 VAmnFz7Ah=h`M_`9n@GQc3
+!s85 0
+vrom_tb
+!s100 jkFW?f2CSf=n_Mnl<M9l=1
+I[jdi;O[1Um7SOi:<lleBi2
+VYEMW=:Xjaek[2L_We=6DK0
+w1479458799
+8D:/ZXOPEN2017/DE2/class/rom/rom_tb.v
+FD:/ZXOPEN2017/DE2/class/rom/rom_tb.v
+L0 3
+R1
+r1
+!s85 0
+31
+R2

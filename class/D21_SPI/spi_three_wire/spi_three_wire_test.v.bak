@@ -1,0 +1,11 @@
+`timescale 1ns/1ns
+
+module spi_three_wire_test;
+
+
+
+
+
+
+
+endmodule

@@ -1,0 +1,105 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ZXOPEN2017\DE2\a\rca_16\simulation\modelsim
+vadder_full
+IGK;HiAcVTJ@MjWQD;GjbD2
+V`JLLZ_X3oe1@BDDIeR1Ia3
+Z1 dD:\ZXOPEN2017\DE2\a\rca_16\simulation\modelsim
+w1461463468
+8D:/ZXOPEN2017/DE2/a/rca_16/adder_full.v
+FD:/ZXOPEN2017/DE2/a/rca_16/adder_full.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/a/rca_16 -O0
+!i10b 1
+!s100 9H[BFQW8AXQAY4<3o]6Hd2
+!s85 0
+!s108 1489043204.617000
+!s107 D:/ZXOPEN2017/DE2/a/rca_16/adder_full.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ZXOPEN2017/DE2/a/rca_16|D:/ZXOPEN2017/DE2/a/rca_16/adder_full.v|
+!s101 -O0
+vadder_half
+IK9CYISQaVM>6T2fj7E4Q`2
+V4iS3C^`4?FbO^n6mWk8991
+R1
+w1461463536
+8D:/ZXOPEN2017/DE2/a/rca_16/adder_half.v
+FD:/ZXOPEN2017/DE2/a/rca_16/adder_half.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 >hNFBniK528_i>PFOmcQ<0
+!s85 0
+!s108 1489043204.758000
+!s107 D:/ZXOPEN2017/DE2/a/rca_16/adder_half.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ZXOPEN2017/DE2/a/rca_16|D:/ZXOPEN2017/DE2/a/rca_16/adder_half.v|
+!s101 -O0
+vrca_16
+IK9U3ZF9FgXTHY;zJn`XTA3
+VZe9[S254Lg3mNLW>CnTX_1
+R1
+w1461462720
+8D:/ZXOPEN2017/DE2/a/rca_16/rca_16.v
+FD:/ZXOPEN2017/DE2/a/rca_16/rca_16.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 0YFBcVm2G1j3O@_hGaE:Y2
+!s85 0
+!s108 1489043204.262000
+!s107 D:/ZXOPEN2017/DE2/a/rca_16/rca_16.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ZXOPEN2017/DE2/a/rca_16|D:/ZXOPEN2017/DE2/a/rca_16/rca_16.v|
+!s101 -O0
+vrca_16_tb
+!i10b 1
+!s100 dXMYMYd?FQ:HUb<:UK<if0
+IWXoOe30AIIQCa;2TkMEl_3
+V:@gb_4mkaoAEDY>5E5oZo3
+R1
+w1461465458
+8D:/ZXOPEN2017/DE2/a/rca_16/rca_16_tb.v
+FD:/ZXOPEN2017/DE2/a/rca_16/rca_16_tb.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1489043204.928000
+!s107 D:/ZXOPEN2017/DE2/a/rca_16/rca_16_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ZXOPEN2017/DE2/a/rca_16|D:/ZXOPEN2017/DE2/a/rca_16/rca_16_tb.v|
+!s101 -O0
+R3
+R4
+vrca_4
+I2Wn6UK4SIk4K<<dK75RA[1
+Vo47TicES1eNDA7o5GRKVc1
+R1
+w1461463148
+8D:/ZXOPEN2017/DE2/a/rca_16/rca_4.v
+FD:/ZXOPEN2017/DE2/a/rca_16/rca_4.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 TPjf=DQQ1RZme`?jhH5<S2
+!s85 0
+!s108 1489043204.465000
+!s107 D:/ZXOPEN2017/DE2/a/rca_16/rca_4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ZXOPEN2017/DE2/a/rca_16|D:/ZXOPEN2017/DE2/a/rca_16/rca_4.v|
+!s101 -O0

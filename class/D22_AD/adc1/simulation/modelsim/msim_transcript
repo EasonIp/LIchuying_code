@@ -1,0 +1,112 @@
+# Reading D:/altera/13.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do adc_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying D:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/class/adc {D:/ZXOPEN2017/class/adc/adc.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module adc
+# 
+# Top level modules:
+# 	adc
+# vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/class/adc {D:/ZXOPEN2017/class/adc/seg7.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module seg7
+# 
+# Top level modules:
+# 	seg7
+# vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/class/adc {D:/ZXOPEN2017/class/adc/top.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/class/adc {D:/ZXOPEN2017/class/adc/pre_seg7.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pre_seg7
+# 
+# Top level modules:
+# 	pre_seg7
+# vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/class/adc {D:/ZXOPEN2017/class/adc/post_seg7.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module post_seg7
+# 
+# Top level modules:
+# 	post_seg7
+# 
+# vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/class/adc {D:/ZXOPEN2017/class/adc/adc_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module adc_tb
+# 
+# Top level modules:
+# 	adc_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  adc_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps adc_tb 
+# Loading work.adc_tb
+# Loading work.adc
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: rator304-19  Hostname: 7i  ProcessID: 1768843635
+# 
+#           Attempting to use alternate WLF file "./wlftyb1ftt".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftyb1ftt
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break in Module adc_tb at D:/ZXOPEN2017/class/adc/adc_tb.v line 52
+# Simulation Breakpoint: Break in Module adc_tb at D:/ZXOPEN2017/class/adc/adc_tb.v line 52
+# MACRO ./adc_run_msim_rtl_verilog.do PAUSED at line 21
+vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/class/adc -O0 D:/ZXOPEN2017/class/adc/adc.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module adc
+# 
+# Top level modules:
+# 	adc
+vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/class/adc -O0 D:/ZXOPEN2017/class/adc/adc_tb.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module adc_tb
+# 
+# Top level modules:
+# 	adc_tb
+vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/class/adc -O0 D:/ZXOPEN2017/class/adc/post_seg7.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module post_seg7
+# 
+# Top level modules:
+# 	post_seg7
+vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/class/adc -O0 D:/ZXOPEN2017/class/adc/pre_seg7.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module pre_seg7
+# 
+# Top level modules:
+# 	pre_seg7
+vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/class/adc -O0 D:/ZXOPEN2017/class/adc/seg7.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module seg7
+# 
+# Top level modules:
+# 	seg7
+vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/class/adc -O0 D:/ZXOPEN2017/class/adc/top.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+add wave -position insertpoint sim:/adc_tb/dut/*
+restart
+# Loading work.adc_tb
+# Loading work.adc
+run -all
+# Break in Module adc_tb at D:/ZXOPEN2017/class/adc/adc_tb.v line 52

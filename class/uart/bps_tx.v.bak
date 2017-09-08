@@ -1,0 +1,11 @@
+module bps_tx (clk, rst_n, rx_en, rx_sel_data, rx_num);
+
+	input clk, rst_n;
+	input rx_en;
+	
+	output rx_sel_data;
+	output [3:0] rx_num;
+
+
+
+endmodule

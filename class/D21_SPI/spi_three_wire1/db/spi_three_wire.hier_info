@@ -1,0 +1,50 @@
+|spi_write
+CLK => CLK.IN1
+SPC <= spi_three_wire:spi0.SPC
+SDAT <> SDAT
+regdata[0] => Q.DATAB
+regdata[1] => Q.DATAB
+regdata[2] => Q.DATAB
+regdata[3] => Q.DATAB
+regdata[4] => Q.DATAB
+regdata[5] => Q.DATAB
+regdata[6] => Q.DATAB
+regdata[7] => Q.DATAB
+regdata[8] => Q.DATAB
+regdata[9] => Q.DATAB
+regdata[10] => Q.DATAB
+regdata[11] => Q.DATAB
+regdata[12] => Q.DATAB
+regdata[13] => Q.DATAB
+regdata[14] => Q.DATAB
+regdata[15] => Q.DATAB
+GO => GO.IN1
+ORDY <= spi_three_wire:spi0.ORDY
+reset => reset.IN1
+SCEN <= spi_three_wire:spi0.SCEN
+
+
+|spi_write|spi_three_wire:spi0
+reset => fstate~3.DATAIN
+CLK => fstate~1.DATAIN
+CLK => SPC.DATAA
+GO => reg_fstate.X_START.DATAB
+GO => Selector0.IN2
+bitcount[0] => LessThan0.IN8
+bitcount[0] => Equal0.IN3
+bitcount[1] => LessThan0.IN7
+bitcount[1] => Equal0.IN2
+bitcount[2] => LessThan0.IN6
+bitcount[2] => Equal0.IN1
+bitcount[3] => LessThan0.IN5
+bitcount[3] => Equal0.IN0
+SCLK <= SCLK.DB_MAX_OUTPUT_PORT_TYPE
+bitcountEN <= bitcountEN.DB_MAX_OUTPUT_PORT_TYPE
+rstbitcount <= rstbitcount.DB_MAX_OUTPUT_PORT_TYPE
+LDEN <= LDEN.DB_MAX_OUTPUT_PORT_TYPE
+SHEN <= bitcountEN.DB_MAX_OUTPUT_PORT_TYPE
+SCEN <= SCEN.DB_MAX_OUTPUT_PORT_TYPE
+ORDY <= ORDY.DB_MAX_OUTPUT_PORT_TYPE
+SPC <= SPC.DB_MAX_OUTPUT_PORT_TYPE
+
+

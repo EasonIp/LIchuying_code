@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="vga_lcy">
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga|vga_driver3:d3|rom:rom|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_bl81.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

@@ -1,0 +1,35 @@
+`timescale 1ns/1ps
+
+module top_tb;
+
+	reg clk, rst_n;
+	
+	wire [9:0] r, g, b;
+	wire hsync, vsync;
+
+	top dut (
+			.clk(clk), 
+			.rst_n(rst_n), 
+			.r(r), 
+			.g(g), 
+			.b(b), 
+			.hsync(hsync), 
+			.vsync(vsync), 
+			.VGA_CLK(VGA_CLK), 
+			.VGA_BLANK(VGA_BLANK), 
+			.VGA_SYNC(VGA_SYNC)
+		);
+	
+	initial
+		begin
+			clk = 1;
+			rst_n = 0;
+			#200.1
+			rst_n = 1;
+			
+			#800_000 $stop;
+		end
+		
+	always #10 clk = ~clk;
+
+endmodule

@@ -1,0 +1,10 @@
+module seg7 (clk, rst_n, data, sel, seg);
+
+
+
+
+
+
+
+
+endmodule

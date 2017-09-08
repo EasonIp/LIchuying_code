@@ -1,0 +1,12 @@
+module vga(clk, rst_n);
+
+	input clk, rst_n;
+	
+	
+	pll p1(.areset(rst_n), .inclk0(clk), .c0(clk_40m));
+	
+	vga_driver d1();
+
+	
+
+endmodule

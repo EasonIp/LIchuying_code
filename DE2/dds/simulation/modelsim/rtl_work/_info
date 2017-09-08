@@ -1,0 +1,57 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ZXOPEN2017\DE2\class\dds\simulation\modelsim
+vcontrol
+IFK?z9T@kL8S6c;gK45Q>Y3
+VZ<lnjjn6SzC;FjYEiOHQl3
+w1479718317
+8D:/ZXOPEN2017/DE2/class/dds/control.v
+FD:/ZXOPEN2017/DE2/class/dds/control.v
+L0 1
+Z1 OV;L;6.4a;39
+r1
+31
+Z2 o-vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/dds -O0
+!s100 _aJfGa9V`J4akbU>To8<A0
+!s85 0
+vdds
+ILBNl9D72QHhAo[;oJUT?j0
+V><329chdMPN>[kDd3KQbn0
+w1479718286
+8D:/ZXOPEN2017/DE2/class/dds/dds.v
+FD:/ZXOPEN2017/DE2/class/dds/dds.v
+L0 1
+R1
+r1
+31
+R2
+!s100 1gK=Vd_Q;4<6K2]SA[DNC0
+!s85 0
+vdds_tb
+!s100 28k]n=@[OJL>P^NA:O<PM0
+ISbe^A83BahZiVcH:3nijI2
+V4EiVYVFe0MTbQd_NoP1<L1
+w1479718298
+8D:/ZXOPEN2017/DE2/class/dds/dds_tb.v
+FD:/ZXOPEN2017/DE2/class/dds/dds_tb.v
+L0 3
+R1
+r1
+!s85 0
+31
+R2
+vrom
+IDnIN^dRPCOT2a^jHj>mSM2
+V9_[3;ZXZebUcL;V@AAB9o1
+w1491536596
+8D:/ZXOPEN2017/DE2/class/dds/rom.v
+FD:/ZXOPEN2017/DE2/class/dds/rom.v
+L0 39
+R1
+r1
+31
+R2
+!s100 laggAgO5?_SW:onJKmP>]0
+!s85 0

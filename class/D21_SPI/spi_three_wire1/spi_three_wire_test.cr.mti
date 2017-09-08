@@ -1,0 +1,17 @@
+D:/ZXOPEN2017/class/spi_three_wire/spi_three_wire.v {1 {vlog -work work D:/ZXOPEN2017/class/spi_three_wire/spi_three_wire.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module spi_three_wire
+
+Top level modules:
+	spi_three_wire
+
+} {} {}} D:/ZXOPEN2017/class/spi_three_wire/spi_three_wire_test.v {2 {vlog -work work {D:\ZXOPEN2017\class\spi_three_wire\spi_three_wire_test.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module spi_three_wire_test
+** Warning: D:\ZXOPEN2017\class\spi_three_wire\spi_three_wire_test.v(81): (vlog-2643) Unterminated string literal continues onto next line.
+
+
+Top level modules:
+	spi_three_wire_test
+
+} {} {}}

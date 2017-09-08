@@ -1,0 +1,10 @@
+module andgate (a, b, f);
+
+	input clk, rst_n;
+	input a, b;
+	
+	output f;
+
+	assign f = a & b;
+
+endmodule

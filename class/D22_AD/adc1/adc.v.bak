@@ -1,0 +1,15 @@
+module adc(
+	input	wire		clk,
+	input	wire		rst_n,
+	input	wire 		cs_n, //片选信号 底有效
+	input	wire		sid, //输入串行数据
+	output  reg  [7:0]	data
+);
+	
+	
+
+
+
+
+
+endmodule 

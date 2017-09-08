@@ -1,0 +1,29 @@
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>unknown</sub_system>
+	<file>unknown</file>
+	<line>0</line>
+	<callstack>
+	0x04b5964e: MEGA_WIZMAN + 0x964e
+	0x7615ddc5: USER32 + 0x1ddc5 (CopyRect + 0x165)
+	0x7615dcc5: USER32 + 0x1dcc5 (CopyRect + 0x65)
+	0x776b8e55: ntdll + 0x78e55 (KiUserCallbackDispatcher + 0x35)
+	0x7615cbc3: USER32 + 0x1cbc3 (PeekMessageA + 0x173)
+	0x77a1eb03: mfc90 + 0x5eb03
+	0x77a37a75: mfc90 + 0x77a75
+	0x019e11d4: RESR_MSW + 0x111d4 (?internal_error_display@MSW_DISPLAY@@UAIXV?$basic_string@DU?$char_traits@D@_Dinkum_std@@V?$MEM_STL_ALLOCATOR@D@@@_Dinkum_std@@@Z + 0x1c4)
+	0x0018a997:
+	0x0018a92f:
+	0x00eccfdc: CCL_MSG + 0x2cfdc (?report_fatal@MSG_INTERNAL_ERROR@@SIXPBDPAX@Z + 0x5c)
+	0x02484709: CCL_ERR + 0x4709 (?err_report_fatal_exception@@YIXPBDPAX@Z + 0x59)
+	0x0248492f: CCL_ERR + 0x492f (?err_report_fatal_exception@@YIXPBDPAX@Z + 0x27f)
+	0x7452f4a1: KERNELBASE + 0x13f4a1 (UnhandledExceptionFilter + 0x171)
+	</callstack>
+	<error>Current editor: RPW, STED</error>
+	<date>Fri Mar 31 10:16:32 2017</date>
+	<version>Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version</version>
+	<full_error>Access Violation at 0X04B5964E
+Current editor: RPW, STED
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version </full_error>
+</internal_error>
+

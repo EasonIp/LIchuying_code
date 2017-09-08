@@ -1,0 +1,125 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ZXOPEN2017\class\adc\simulation\modelsim
+vadc
+IzDL<7FVk@h7gE65ONN=o`2
+VFZT62f6in3JmITJ@f^WAT2
+Z1 dD:\ZXOPEN2017\class\adc\simulation\modelsim
+w1486538142
+8D:/ZXOPEN2017/class/adc/adc.v
+FD:/ZXOPEN2017/class/adc/adc.v
+L0 12
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/ZXOPEN2017/class/adc -O0
+!i10b 1
+!s100 h902afebCoH3ZLKI0T84[0
+!s85 0
+!s108 1486540871.328000
+!s107 D:/ZXOPEN2017/class/adc/adc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ZXOPEN2017/class/adc|-O0|D:/ZXOPEN2017/class/adc/adc.v|
+!s101 -O0
+vadc_tb
+InDFh1X2MR;TfTGfieVgJn3
+VL^^ghHa^:=dzFe6^NhcU@0
+R1
+w1486540796
+8D:/ZXOPEN2017/class/adc/adc_tb.v
+FD:/ZXOPEN2017/class/adc/adc_tb.v
+L0 3
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 7k;mcnM6:C57CXDU0N[jW2
+!s85 0
+!s108 1486540871.454000
+!s107 D:/ZXOPEN2017/class/adc/adc_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ZXOPEN2017/class/adc|-O0|D:/ZXOPEN2017/class/adc/adc_tb.v|
+!s101 -O0
+vpost_seg7
+IdLQPeR^R2<Q;?kQe`;H:f2
+V>Wbjea8@5@_QYNERP:neJ0
+R1
+w1486536243
+8D:/ZXOPEN2017/class/adc/post_seg7.v
+FD:/ZXOPEN2017/class/adc/post_seg7.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 F8?S7c>3<ZDC<FC2H3LJj1
+!s85 0
+!s108 1486540871.627000
+!s107 D:/ZXOPEN2017/class/adc/post_seg7.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ZXOPEN2017/class/adc|-O0|D:/ZXOPEN2017/class/adc/post_seg7.v|
+!s101 -O0
+vpre_seg7
+ILMlJNH?^iOJE^lGaaGX4b2
+Vm`mJZ>ON1??XnzoeFAc@b2
+R1
+w1486536215
+8D:/ZXOPEN2017/class/adc/pre_seg7.v
+FD:/ZXOPEN2017/class/adc/pre_seg7.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 >7KMNV==>?MJBAiE_aKSN0
+!s85 0
+!s108 1486540871.762000
+!s107 D:/ZXOPEN2017/class/adc/pre_seg7.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ZXOPEN2017/class/adc|-O0|D:/ZXOPEN2017/class/adc/pre_seg7.v|
+!s101 -O0
+vseg7
+IHIh]:=j0E7dgO>Jn><blb1
+Vc;HY6?mXGTYHAjUEDCoz03
+R1
+w1486536510
+8D:/ZXOPEN2017/class/adc/seg7.v
+FD:/ZXOPEN2017/class/adc/seg7.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 Y_j>VJak=f_o@kDd`Z10D0
+!s85 0
+!s108 1486540871.893000
+!s107 D:/ZXOPEN2017/class/adc/seg7.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ZXOPEN2017/class/adc|-O0|D:/ZXOPEN2017/class/adc/seg7.v|
+!s101 -O0
+vtop
+!i10b 1
+!s100 X@K_hV39f@m0Cg9fgWKi?2
+ICO3X^h<Vedz:7?L1f415B0
+V76zO=aD9Q8Zh^=?1KKaS20
+R1
+w1486536335
+8D:/ZXOPEN2017/class/adc/top.v
+FD:/ZXOPEN2017/class/adc/top.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1486540872.034000
+!s107 D:/ZXOPEN2017/class/adc/top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ZXOPEN2017/class/adc|-O0|D:/ZXOPEN2017/class/adc/top.v|
+!s101 -O0
+R3
+R4

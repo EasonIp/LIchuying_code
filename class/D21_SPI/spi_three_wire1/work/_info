@@ -1,0 +1,43 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\altera\13.0
+vspi_three_wire
+!i10b 1
+Z1 !s100 T?7IdNFRYHzQI?BLNTabN0
+Z2 IPdonIJ8WQeG>5`R;l2mai2
+Z3 Vl:7V@L9lhfeDjIj==Ldbn3
+Z4 dD:\ZXOPEN2017\class\spi_three_wire
+Z5 w1486353071
+Z6 8D:/ZXOPEN2017/class/spi_three_wire/spi_three_wire.v
+Z7 FD:/ZXOPEN2017/class/spi_three_wire/spi_three_wire.v
+L0 22
+Z8 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1486362666.901000
+!s107 D:/ZXOPEN2017/class/spi_three_wire/spi_three_wire.v|
+Z9 !s90 -reportprogress|300|-work|work|D:/ZXOPEN2017/class/spi_three_wire/spi_three_wire.v|
+!s101 -O0
+Z10 o-work work -O0
+vspi_three_wire_test
+Z11 IaIZPX[EBMfSHQ:CoLCS6B3
+Z12 VZ:7e4zT=[`TLMl<X5M3zN0
+R4
+Z13 w1486362662
+Z14 8D:\ZXOPEN2017\class\spi_three_wire\spi_three_wire_test.v
+Z15 FD:\ZXOPEN2017\class\spi_three_wire\spi_three_wire_test.v
+L0 3
+R8
+r1
+31
+Z16 !s90 -reportprogress|300|-work|work|D:\ZXOPEN2017\class\spi_three_wire\spi_three_wire_test.v|
+R10
+!i10b 1
+Z17 !s100 VXbjfz^moD41fKE_H;;SS2
+!s85 0
+Z18 !s108 1486362666.753000
+Z19 !s107 D:\ZXOPEN2017\class\spi_three_wire\spi_three_wire_test.v|
+!s101 -O0

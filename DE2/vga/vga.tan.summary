@@ -1,0 +1,46 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 11.686 ns
+From           : vga:vga|vcnt[21]
+To             : vsync
+From Clock     : clk
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Clock Setup: 'pll:pll|altpll:altpll_component|_clk0'
+Slack          : 18.034 ns
+Required Time  : 40.00 MHz ( period = 25.000 ns )
+Actual Time    : 143.55 MHz ( period = 6.966 ns )
+From           : vga:vga|hcnt[13]
+To             : vga:vga|vcnt[31]
+From Clock     : pll:pll|altpll:altpll_component|_clk0
+To Clock       : pll:pll|altpll:altpll_component|_clk0
+Failed Paths   : 0
+
+Type           : Clock Hold: 'pll:pll|altpll:altpll_component|_clk0'
+Slack          : 0.531 ns
+Required Time  : 40.00 MHz ( period = 25.000 ns )
+Actual Time    : N/A
+From           : vga:vga|vcnt[31]
+To             : vga:vga|vcnt[31]
+From Clock     : pll:pll|altpll:altpll_component|_clk0
+To Clock       : pll:pll|altpll:altpll_component|_clk0
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+

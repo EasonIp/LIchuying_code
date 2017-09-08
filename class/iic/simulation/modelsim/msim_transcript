@@ -1,0 +1,51 @@
+# Reading D:/altera/13.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do iic_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying D:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/ZXOPEN2016/class/iic {D:/ZXOPEN2016/class/iic/iic_noack.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module iic_noack
+# 
+# Top level modules:
+# 	iic_noack
+# 
+# vlog -vlog01compat -work work +incdir+D:/ZXOPEN2016/class/iic {D:/ZXOPEN2016/class/iic/iic_noack_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module iic_noack_tb
+# 
+# Top level modules:
+# 	iic_noack_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  iic_noack_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps iic_noack_tb 
+# Loading work.iic_noack_tb
+# Loading work.iic_noack
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break in Module iic_noack_tb at D:/ZXOPEN2016/class/iic/iic_noack_tb.v line 45
+# Simulation Breakpoint: Break in Module iic_noack_tb at D:/ZXOPEN2016/class/iic/iic_noack_tb.v line 45
+# MACRO ./iic_run_msim_rtl_verilog.do PAUSED at line 17
+add wave -position insertpoint sim:/iic_noack_tb/dut/*
+restart
+run -all
+# Break in Module iic_noack_tb at D:/ZXOPEN2016/class/iic/iic_noack_tb.v line 45
+vlog -vlog01compat -work work +incdir+D:/ZXOPEN2016/class/iic -O0 D:/ZXOPEN2016/class/iic/iic_noack.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module iic_noack
+# 
+# Top level modules:
+# 	iic_noack
+restart
+# Loading work.iic_noack
+run -all
+# Break in Module iic_noack_tb at D:/ZXOPEN2016/class/iic/iic_noack_tb.v line 45

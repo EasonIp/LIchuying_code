@@ -1,0 +1,65 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ZXOPEN2017\class\spi_write\simulation\modelsim
+vspi_three_wire
+IRJN4Im`DeczWSh`mEm?hV3
+Vl:7V@L9lhfeDjIj==Ldbn3
+Z1 dD:\ZXOPEN2017\class\spi_write\simulation\modelsim
+w1486369021
+8d:/zxopen2017/class/spi_three_wire/spi_three_wire.v
+Fd:/zxopen2017/class/spi_three_wire/spi_three_wire.v
+L0 22
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 Zal>aSJ1<Qmmla<zSP=182
+!s85 0
+!s108 1486371219.663000
+!s107 d:/zxopen2017/class/spi_three_wire/spi_three_wire.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+d:/zxopen2017/class/spi_three_wire|d:/zxopen2017/class/spi_three_wire/spi_three_wire.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+d:/zxopen2017/class/spi_three_wire -O0
+vspi_write
+IH0:^E_NT^=82f=K;3;zH42
+V1d^LDVSm7C@=>9JA>MAkk0
+R1
+w1486368834
+8D:/ZXOPEN2017/class/spi_write/spi_write.v
+FD:/ZXOPEN2017/class/spi_write/spi_write.v
+L0 3
+R2
+r1
+31
+R3
+!i10b 1
+!s100 ]3;_9HlFeoE2QLL2dbB^<1
+!s85 0
+!s108 1486371219.532000
+!s107 D:/ZXOPEN2017/class/spi_write/spi_write.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ZXOPEN2017/class/spi_write|D:/ZXOPEN2017/class/spi_write/spi_write.v|
+!s101 -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/ZXOPEN2017/class/spi_write -O0
+vspi_write_test
+!i10b 1
+!s100 mC1^W?0>E?:fBV75D3h7K1
+IV:SFifg]>ol;RMOm>gYeQ1
+VTiofTQNB:YJRk67zbFkU31
+R1
+w1486370427
+8D:/ZXOPEN2017/class/spi_write/spi_write_test.v
+FD:/ZXOPEN2017/class/spi_write/spi_write_test.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1486371219.789000
+!s107 D:/ZXOPEN2017/class/spi_write/spi_write_test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ZXOPEN2017/class/spi_write|D:/ZXOPEN2017/class/spi_write/spi_write_test.v|
+!s101 -O0
+R3
+R4

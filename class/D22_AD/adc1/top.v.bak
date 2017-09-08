@@ -1,0 +1,33 @@
+module adc_top(clk, rst_n, adc_in, cs_n, adc_clk, sel, seg);
+
+	input clk;     
+	input rst_n;
+	input adc_in;  //输入串行数据
+
+	output adc_clk; //输出 I/O CLOCK
+	output cs_n;    //片选信号 低有效
+	output [2:0] sel; //输出采集到的8位数字信号
+	output [7:0] seg;
+
+	wire [7:0] data;
+	
+	adc adc(
+			.clk(clk),  
+			.rst_n(rst_n),
+			.sid(adc_in),  
+			.adc_clk(adc_clk), 
+			.cs_n(cs_n),    
+			.data(data) 
+		);
+
+	smg smg(
+			.clk	(clk), //50Mhz
+			.rst_n	(rst_n),
+			.data_in(data),  
+			.sel	(sel), 		//位选
+			.seg 	(seg)			//段选  都是低电平点亮
+		);
+
+endmodule 
+
+

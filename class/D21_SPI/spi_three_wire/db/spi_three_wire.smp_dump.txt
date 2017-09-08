@@ -1,0 +1,7 @@
+
+State Machine - |spi_write|spi_three_wire:spi0|fstate
+Name fstate.X_STOP fstate.X_SHIFT fstate.X_START fstate.X_IDLE 
+fstate.X_IDLE 0 0 0 0 
+fstate.X_START 0 0 1 1 
+fstate.X_SHIFT 0 1 0 1 
+fstate.X_STOP 1 0 0 1 

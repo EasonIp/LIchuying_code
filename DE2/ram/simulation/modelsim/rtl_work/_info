@@ -1,0 +1,57 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ZXOPEN2017\DE2\class\ram\simulation\modelsim
+vmy_ram
+I>D92m_0IPYIh3F`O1n=>@1
+VXdlZ_OIkH^MNW>48DUY2C2
+w1490926565
+8D:/ZXOPEN2017/DE2/class/ram/my_ram.v
+FD:/ZXOPEN2017/DE2/class/ram/my_ram.v
+L0 39
+Z1 OV;L;6.4a;39
+r1
+31
+Z2 o-vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/ram -O0
+!s100 XAVIO<0d64PC]S6OaTib23
+!s85 0
+vram
+IKI6:W8WXCK>8m[O?oN>=K0
+V=4Od4n30CJkl^lhDBaj4Z2
+w1479436167
+8D:/ZXOPEN2017/DE2/class/ram/ram.v
+FD:/ZXOPEN2017/DE2/class/ram/ram.v
+L0 1
+R1
+r1
+31
+R2
+!s100 d@M8Bg;a;=KDB;LVWFUB?2
+!s85 0
+vram_controller
+I8nmj0O:]ejzz[<cdFOmY;0
+V>Kz=7nJEz>>iNh?6Lb`Mc0
+w1479437123
+8D:/ZXOPEN2017/DE2/class/ram/ram_controller.v
+FD:/ZXOPEN2017/DE2/class/ram/ram_controller.v
+L0 1
+R1
+r1
+31
+R2
+!s100 WmCZ3TSiScZzcib^DlWkS3
+!s85 0
+vram_tb
+!s100 =>nTCe0TT^Y<`aQc6ko7o3
+IC>5JA3YOK8I0WE43a^25_2
+VCRW2<UhheaW;LIL2_B5o31
+w1479437338
+8D:/ZXOPEN2017/DE2/class/ram/ram_tb.v
+FD:/ZXOPEN2017/DE2/class/ram/ram_tb.v
+L0 3
+R1
+r1
+!s85 0
+31
+R2

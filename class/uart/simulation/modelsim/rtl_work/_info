@@ -1,0 +1,125 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ZXOPEN2016\class\uart\simulation\modelsim
+vbps_rx
+IK<H>UP6K2TJ2Q9XnO0gd:2
+V56Wc48]BAC79_i^KckKBc0
+Z1 dD:\ZXOPEN2016\class\uart\simulation\modelsim
+w1476342522
+8D:/ZXOPEN2016/class/uart/bps_rx.v
+FD:/ZXOPEN2016/class/uart/bps_rx.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/ZXOPEN2016/class/uart -O0
+!i10b 1
+!s100 l`57Sjm:TDW42Mka=5:X50
+!s85 0
+!s108 1476346352.676000
+!s107 D:/ZXOPEN2016/class/uart/bps_rx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ZXOPEN2016/class/uart|D:/ZXOPEN2016/class/uart/bps_rx.v|
+!s101 -O0
+vbps_tx
+I9a6Plb[TGRmbDUUzR[fNd3
+VgiDB?ZJ[odJIFYRTDmic83
+R1
+w1476342468
+8D:/ZXOPEN2016/class/uart/bps_tx.v
+FD:/ZXOPEN2016/class/uart/bps_tx.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 UhA4idLnL<C@NRdc>ehJj2
+!s85 0
+!s108 1476346352.860000
+!s107 D:/ZXOPEN2016/class/uart/bps_tx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ZXOPEN2016/class/uart|D:/ZXOPEN2016/class/uart/bps_tx.v|
+!s101 -O0
+vuart
+IJ7ae=8GD>RHn20n`EUE[T0
+Vzo4m7k<dN4ojWe;Q>X`Cg2
+R1
+w1476344690
+8D:/ZXOPEN2016/class/uart/uart.v
+FD:/ZXOPEN2016/class/uart/uart.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 Kz^A?DO9QW8z9Lo?g<7;H3
+!s85 0
+!s108 1476346352.597000
+!s107 D:/ZXOPEN2016/class/uart/uart.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ZXOPEN2016/class/uart|D:/ZXOPEN2016/class/uart/uart.v|
+!s101 -O0
+vuart_rx
+InWz=oMEZ9KZzE>>cBAAR42
+V^flcaXEDdRP_TEdImbIc[0
+R1
+w1476344551
+8D:/ZXOPEN2016/class/uart/uart_rx.v
+FD:/ZXOPEN2016/class/uart/uart_rx.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 MbgzOeN^I]P>;>E]fR=Ol1
+!s85 0
+!s108 1476346352.778000
+!s107 D:/ZXOPEN2016/class/uart/uart_rx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ZXOPEN2016/class/uart|D:/ZXOPEN2016/class/uart/uart_rx.v|
+!s101 -O0
+vuart_tb
+!i10b 1
+!s100 H[P>PY]KBUYj`;f6QlQ0n1
+Ia0[fgc:NVa?]Ll0`iRT_j1
+VZzYO6HjR<]<2_bm?EhR?51
+R1
+w1476347761
+8D:/ZXOPEN2016/class/uart/uart_tb.v
+FD:/ZXOPEN2016/class/uart/uart_tb.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1476347773.770000
+!s107 D:/ZXOPEN2016/class/uart/uart_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ZXOPEN2016/class/uart|-O0|D:/ZXOPEN2016/class/uart/uart_tb.v|
+!s101 -O0
+R3
+R4
+vuart_tx
+IRjJ0V<JHbK`3?j23:M1j_0
+VhIo4[lOe7bV;6X2UCVYBQ1
+R1
+w1476346973
+8D:/ZXOPEN2016/class/uart/uart_tx.v
+FD:/ZXOPEN2016/class/uart/uart_tx.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 ImbBU`7CUz0zNJEJHYCW52
+!s85 0
+!s108 1476347061.368000
+!s107 D:/ZXOPEN2016/class/uart/uart_tx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/ZXOPEN2016/class/uart|-O0|D:/ZXOPEN2016/class/uart/uart_tx.v|
+!s101 -O0

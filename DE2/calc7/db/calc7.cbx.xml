@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="calc7">
+		<CBX_INST_ENTRY INSTANCE_NAME="|calc7|alu3:u6|lpm_mult:Mult0" CBX_FILE_NAME="mult_edt.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|calc7|keyscan0:u2|altsyncram:WideOr8_rtl_0" CBX_FILE_NAME="altsyncram_81v.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

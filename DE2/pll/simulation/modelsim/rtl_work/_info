@@ -1,0 +1,44 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\ZXOPEN2017\DE2\class\pll\simulation\modelsim
+vmy_pll
+IOa8zoR>oe@^5a7<hEV<hl3
+VbG]dco@BhOGa5CgN?z3O[0
+w1490672755
+8D:/ZXOPEN2017/DE2/class/pll/my_pll.v
+FD:/ZXOPEN2017/DE2/class/pll/my_pll.v
+L0 39
+Z1 OV;L;6.4a;39
+r1
+31
+Z2 o-vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/pll -O0
+!s100 EN_1N[ZRj:KO4VDIPEEL32
+!s85 0
+vpll
+Ik7Fo=3BgWQ?KjHQXTY3D^0
+VPH5If@C`D9<=_XACLLGiE1
+w1479367709
+8D:/ZXOPEN2017/DE2/class/pll/pll.v
+FD:/ZXOPEN2017/DE2/class/pll/pll.v
+L0 1
+R1
+r1
+31
+R2
+!s100 7h6fcZko^lK2]obQYI<CO3
+!s85 0
+vpll_tb
+!s100 ^cODVlO1RA<3<zc;BP=M31
+IS61H7QHPGXe1YnWFlRcZ20
+VC_;V7V<RdYLU75zfiRkWl1
+w1479367901
+8D:/ZXOPEN2017/DE2/class/pll/pll_tb.v
+FD:/ZXOPEN2017/DE2/class/pll/pll_tb.v
+L0 3
+R1
+r1
+!s85 0
+31
+R2

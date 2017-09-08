@@ -1,0 +1,122 @@
+Flow report for seg7
+Sat Mar 25 22:11:18 2017
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------+
+; Flow Summary                                                                  ;
++------------------------------------+------------------------------------------+
+; Flow Status                        ; Successful - Sat Mar 25 22:11:18 2017    ;
+; Quartus II Version                 ; 9.0 Build 132 02/25/2009 SJ Full Version ;
+; Revision Name                      ; seg7                                     ;
+; Top-level Entity Name              ; top                                      ;
+; Family                             ; Cyclone II                               ;
+; Device                             ; EP2C35F672C6                             ;
+; Timing Models                      ; Final                                    ;
+; Met timing requirements            ; N/A                                      ;
+; Total logic elements               ; 735                                      ;
+;     Total combinational functions  ; 734                                      ;
+;     Dedicated logic registers      ; 141                                      ;
+; Total registers                    ; 141                                      ;
+; Total pins                         ; 71                                       ;
+; Total virtual pins                 ; 0                                        ;
+; Total memory bits                  ; 0                                        ;
+; Embedded Multiplier 9-bit elements ; 0                                        ;
+; Total PLLs                         ; 0                                        ;
++------------------------------------+------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 03/25/2017 22:11:13 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; seg7                ;
++-------------------+---------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                  ;
++--------------------------------------+---------------------------------------------+---------------+-------------+----------------+
+; Assignment Name                      ; Value                                       ; Default Value ; Entity Name ; Section Id     ;
++--------------------------------------+---------------------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID                ; 193675813819718.149045107312036             ; --            ; --          ; --             ;
+; EDA_DESIGN_INSTANCE_NAME             ; seg7                                        ; --            ; --          ; seg7_tb        ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; seg7_tb                                     ; --            ; --          ; eda_simulation ;
+; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                                 ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (Verilog)                   ; <None>        ; --          ; --             ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                             ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_FILE                  ; seg7_tb.v                                   ; --            ; --          ; seg7_tb        ;
+; EDA_TEST_BENCH_MODULE_NAME           ; seg7_tb                                     ; --            ; --          ; seg7_tb        ;
+; EDA_TEST_BENCH_NAME                  ; seg7_tb                                     ; --            ; --          ; eda_simulation ;
+; EDA_TIME_SCALE                       ; 1 ps                                        ; --            ; --          ; eda_simulation ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                          ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                           ; --            ; --          ; --             ;
+; MISC_FILE                            ; D:/ZXOPEN2017/DE2/class/seg7_clock/seg7.dpf ; --            ; --          ; --             ;
+; PARTITION_COLOR                      ; 16764057                                    ; --            ; top         ; Top            ;
+; PARTITION_NETLIST_TYPE               ; SOURCE                                      ; --            ; top         ; Top            ;
+; TOP_LEVEL_ENTITY                     ; top                                         ; seg7          ; --          ; --             ;
+; USE_GENERATED_PHYSICAL_CONSTRAINTS   ; Off                                         ; --            ; --          ; eda_blast_fpga ;
++--------------------------------------+---------------------------------------------+---------------+-------------+----------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:04     ; 1.0                     ; 248 MB              ; 00:00:04                           ;
+; Total                ; 00:00:04     ; --                      ; --                  ; 00:00:04                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++---------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                       ;
++----------------------+------------------+---------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name       ; OS Version ; Processor type ;
++----------------------+------------------+---------------+------------+----------------+
+; Analysis & Synthesis ; PC201604         ; Windows Vista ; 6.2        ; x86_64         ;
++----------------------+------------------+---------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off seg7 -c seg7
+
+
+

@@ -1,0 +1,62 @@
+# Reading D:/altera/90/modelsim_ae/tcl/vsim/pref.tcl 
+# do andgate_run_msim_gate_verilog.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying D:\altera\90\modelsim_ae\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\altera\90\modelsim_ae\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+. {andgate.vo}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module andgate
+# 
+# Top level modules:
+# 	andgate
+# 
+# vlog -vlog01compat -work work +incdir+D:/ZXOPEN2017/DE2/class/andgate {D:/ZXOPEN2017/DE2/class/andgate/andgate_tb.v}
+# Model Technology ModelSim ALTERA vlog 6.4a Compiler 2008.08 Oct 22 2008
+# -- Compiling module andgate_tb
+# 
+# Top level modules:
+# 	andgate_tb
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs="+acc" andgate_tb
+# vsim +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps andgate_tb 
+# //  ModelSim ALTERA 6.4a Oct 22 2008 
+# //
+# //  Copyright 1991-2008 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading work.andgate_tb
+# Loading work.andgate
+# Loading cycloneii_ver.cycloneii_io
+# Loading cycloneii_ver.cycloneii_mux21
+# Loading cycloneii_ver.cycloneii_dffe
+# Loading cycloneii_ver.cycloneii_asynch_io
+# Loading cycloneii_ver.cycloneii_lcell_comb
+# SDF 6.4a Compiler 2008.08 Oct 22 2008
+# 
+# Loading instances from andgate_v.sdo
+# Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+# Loading timing data from andgate_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Region: /andgate_tb  File: D:/ZXOPEN2017/DE2/class/andgate/andgate_tb.v
+# 
+# add wave *
+# view structure
+# .main_pane.workspace.interior.cs.nb.canvas.notebook.cs.page2.cs
+# view signals
+# .main_pane.signals.interior.cs
+# run -all
+# Break in Module andgate_tb at D:/ZXOPEN2017/DE2/class/andgate/andgate_tb.v line 24
+# Simulation Breakpoint: Break in Module andgate_tb at D:/ZXOPEN2017/DE2/class/andgate/andgate_tb.v line 24
+# MACRO ./andgate_run_msim_gate_verilog.do PAUSED at line 17

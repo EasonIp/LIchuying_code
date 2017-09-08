@@ -1,0 +1,153 @@
+module vga_data8 (clk, rst_n, data8, rgb30, hsync, vsync);
+
+	input clk, rst_n;
+	input [31:0] data8;
+	
+	output [29:0] rgb30;
+	output hsync, vsync;
+
+	reg [31:0] hcnt, vcnt;
+	wire hflag, vflag;
+
+	// 800*600*60  40.0MHz=1056(128+88+800+40) * 628(4+23+600+1) * 60Hz
+	parameter	ha = 128,	hb = 88,	hc = 800,	hd = 40,	he = 1056;
+	parameter	va = 4,		vb = 23,	vc = 600,	vd = 1,		ve = 628;
+					
+	localparam	hab = ha + hb,	hac = ha + hb + hc;
+	localparam	vab = va + vb,	vac = va + vb + vc;
+	localparam	dh = 144, dv = 144;
+
+	reg [7:0] addr_rom;
+	wire [7:0] q_rom;
+
+	rom256_digits rom256_digits (
+			.address(addr_rom),
+			.clock(clk),
+			.q(q_rom)
+		);
+		
+	wire [7:0] addr;
+	wire [7:0] q;
+	wire wren;
+		
+	ram256_data	ram256_data (
+			.address ( addr ),
+			.clock ( clk ),
+			.data ( q_rom ),
+			.wren ( wren ),
+			.q ( q )
+		);
+
+
+	wire [11:0] i;
+	wire [11:0] j;
+
+	assign i = ((hcnt+1-hab-dh)>>2) & 7'b111_1111;		// % 128
+	assign j = ((vcnt-vab-dv)>>2) & 4'b1111;			// % 16
+
+	assign addr = (j<<4) + (i>>3);		// addr = (j*128+i)/8
+
+	wire [11:0] i_p;
+	wire [7:0] addr_p;
+//	assign i_p = ((hcnt+3-hab-dh)>>2) & 7'b111_1111;		// % 128
+	assign i_p = ((hcnt+2-hab-dh)>>2) & 7'b111_1111;		// % 128
+	assign addr_p = (j<<4) + (i_p>>3);		// addr_p = (j*128+i_p)/8
+
+	always @ (posedge clk or negedge rst_n)
+		begin
+			if (!rst_n)
+				begin
+					hcnt <= 0;
+					vcnt <= 0;
+				end
+			else
+				begin
+					if ((vcnt==ve-1) && (hcnt==he-1))
+						begin
+							hcnt <= 0;
+							vcnt <= 0;
+						end
+					else
+						begin
+							if (hcnt==he-1)
+								begin
+									hcnt <= 0;
+									vcnt <= vcnt + 1;
+								end
+							else
+								hcnt <= hcnt + 1;
+						end
+				end
+		end
+		
+	assign hsync = (hcnt < ha) ? 1'b0 : 1'b1;
+	assign vsync = (vcnt < va) ? 1'b0 : 1'b1;
+	
+	assign hflag = ((hcnt>=hab) && (hcnt<hac)) ? 1'b1 : 1'b0;
+	assign vflag = ((vcnt>=vab) && (vcnt<vac)) ? 1'b1 : 1'b0;
+	
+	reg wren_p, p;	// p is wren_mask_pp
+	
+	always @ (*)
+		begin
+			if (!rst_n)
+				begin
+					wren_p = 1'b0;
+					addr_rom = 0;
+				end
+			else
+				begin
+					case (addr_p[3:0])
+					1	:	begin wren_p = 1'b1; addr_rom = {data8[31:28], addr_p[7:4]}; end
+					2	:	begin wren_p = 1'b1; addr_rom = {data8[27:24], addr_p[7:4]}; end
+					5	:	begin wren_p = 1'b1; addr_rom = {data8[23:20], addr_p[7:4]}; end
+					6	:	begin wren_p = 1'b1; addr_rom = {data8[19:16], addr_p[7:4]}; end
+					9	:	begin wren_p = 1'b1; addr_rom = {data8[15:12], addr_p[7:4]}; end
+					10	:	begin wren_p = 1'b1; addr_rom = {data8[11: 8], addr_p[7:4]}; end
+					13	:	begin wren_p = 1'b1; addr_rom = {data8[ 7: 4], addr_p[7:4]}; end
+					14	:	begin wren_p = 1'b1; addr_rom = {data8[ 3: 0], addr_p[7:4]}; end
+					default	:	begin wren_p = 1'b0; end
+					endcase
+				end
+		end
+
+//	always @ (posedge clk or negedge rst_n)
+//		begin
+//			if (!rst_n)
+//				begin
+//					p <= 1'b0;
+//					wren_p <= 1'b0;
+//					addr_rom <= 0;
+//				end
+//			else
+//				begin
+//					case (addr_p[3:0])
+//					1	:	begin p <= 1'b1; wren_p <= p; addr_rom <= {data8[31:28], addr_p[7:4]}; end
+//					2	:	begin p <= 1'b1; wren_p <= p; addr_rom <= {data8[27:24], addr_p[7:4]}; end
+//					5	:	begin p <= 1'b1; wren_p <= p; addr_rom <= {data8[23:20], addr_p[7:4]}; end
+//					6	:	begin p <= 1'b1; wren_p <= p; addr_rom <= {data8[19:16], addr_p[7:4]}; end
+//					9	:	begin p <= 1'b1; wren_p <= p; addr_rom <= {data8[15:12], addr_p[7:4]}; end
+//					10	:	begin p <= 1'b1; wren_p <= p; addr_rom <= {data8[11: 8], addr_p[7:4]}; end
+//					13	:	begin p <= 1'b1; wren_p <= p; addr_rom <= {data8[ 7: 4], addr_p[7:4]}; end
+//					14	:	begin p <= 1'b1; wren_p <= p; addr_rom <= {data8[ 3: 0], addr_p[7:4]}; end
+//					default	:	begin p <= 1'b0; wren_p <= p; end
+//					endcase
+//				end
+//		end
+
+	wire hblock, vblock;
+	assign hblock = ((hcnt>=hab+dh) && (hcnt<hab+dh+512)) ? 1'b1 : 1'b0;
+	assign vblock = ((vcnt>=vab+dv) && (vcnt<vab+dv+64)) ? 1'b1 : 1'b0;
+
+	wire [29:0] block;
+	assign block = (hblock && vblock && q[((hcnt-hab-dh)>>2) & 3'b111]) ? {30{1'b1}} : {10'b0,10'b0,{1'b1,9'b0}};
+	
+	wire hblock_pre;
+	assign hblock_pre = ((hcnt>=hab+dh-1) && (hcnt<hab+dh-1+512)) ? 1'b1 : 1'b0;
+	wire hmargin;
+	assign hmargin = ((hcnt<8) || (hcnt>=he-8)) ? 1'b1 : 1'b0;
+	assign wren = ((hblock_pre && vblock) || hmargin) ? 1'b0 : wren_p;
+	
+	assign rgb30 = (hflag && vflag) ? block : 30'b0;
+
+endmodule

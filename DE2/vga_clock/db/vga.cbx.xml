@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="vga">
+		<CBX_INST_ENTRY INSTANCE_NAME="|top|b2bcd_99:b2bcd_99_inst2|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_1dm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top|b2bcd_99:b2bcd_99_inst4|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_1dm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top|b2bcd_99:b2bcd_99_inst1|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_1dm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top|b2bcd_99:b2bcd_99_inst3|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_1dm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top|vga_data8:vga_data8|ram256_data:ram256_data|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_fpc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top|vga_data8:vga_data8|rom256_digits:rom256_digits|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_fq71.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
