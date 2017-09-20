@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Jun 20 20:03:46 2016
+Quartus II Version : 11.0 Build 208 07/03/2011 SP 1 SJ Web Edition
+Revision Name : risc_spm_lf
+Top-level Entity Name : risc_spm_lf
+Family : Cyclone IV E
+Total logic elements : 338
+    Total combinational functions : 274
+    Dedicated logic registers : 133
+Total registers : 133
+Total pins : 15
+Total virtual pins : 0
+Total memory bits : 2,048
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
